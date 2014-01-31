@@ -21,7 +21,6 @@ slideDown
 
 .slideDown{
 	animation-name: slideDown;
-<<<<<<< HEAD
 	-webkit-animation-name: slideDown;	
 
 	animation-duration: 1s;	
@@ -31,17 +30,6 @@ slideDown
 	-webkit-animation-timing-function: ease;	
 
 	visibility: visible !important;						
-=======
-	-webkit-animation-name: slideDown;
-
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease;
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes slideDown {
@@ -59,17 +47,10 @@ slideDown
 	}
 	95%{
 		transform: translateY(-2%);
-<<<<<<< HEAD
 	}			
 	100% {
 		transform: translateY(0%);
 	}		
-=======
-	}
-	100% {
-		transform: translateY(0%);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes slideDown {
@@ -87,17 +68,10 @@ slideDown
 	}
 	95%{
 		-webkit-transform: translateY(-2%);
-<<<<<<< HEAD
 	}			
 	100% {
 		-webkit-transform: translateY(0%);
 	}	
-=======
-	}
-	100% {
-		-webkit-transform: translateY(0%);
-	}
->>>>>>> split-template
 }
 
 /*
@@ -109,7 +83,6 @@ slideUp
 
 .slideUp{
 	animation-name: slideUp;
-<<<<<<< HEAD
 	-webkit-animation-name: slideUp;	
 
 	animation-duration: 1s;	
@@ -119,17 +92,6 @@ slideUp
 	-webkit-animation-timing-function: ease;
 
 	visibility: visible !important;			
-=======
-	-webkit-animation-name: slideUp;
-
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease;
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes slideUp {
@@ -147,17 +109,10 @@ slideUp
 	}
 	95%{
 		transform: translateY(2%);
-<<<<<<< HEAD
 	}			
 	100% {
 		transform: translateY(0%);
 	}	
-=======
-	}
-	100% {
-		transform: translateY(0%);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes slideUp {
@@ -175,17 +130,10 @@ slideUp
 	}
 	95%{
 		-webkit-transform: translateY(2%);
-<<<<<<< HEAD
 	}			
 	100% {
 		-webkit-transform: translateY(0%);
 	}	
-=======
-	}
-	100% {
-		-webkit-transform: translateY(0%);
-	}
->>>>>>> split-template
 }
 
 /*
@@ -197,7 +145,6 @@ slideLeft
 
 .slideLeft{
 	animation-name: slideLeft;
-<<<<<<< HEAD
 	-webkit-animation-name: slideLeft;	
 
 	animation-duration: 1s;	
@@ -207,17 +154,6 @@ slideLeft
 	-webkit-animation-timing-function: ease-in-out;		
 
 	display: block !important;	
-=======
-	-webkit-animation-name: slideLeft;
-
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease-in-out;
-	-webkit-animation-timing-function: ease-in-out;
-
-	display: block !important;
->>>>>>> split-template
 }
 
 @keyframes slideLeft {
@@ -227,7 +163,7 @@ slideLeft
 	50%{
 		transform: translateX(-8%);
 	}
-/*	65%{
+	/*65%{
 		transform: translateX(4%);
 	}
 	80%{
@@ -235,11 +171,7 @@ slideLeft
 	}*/
 	95%{
 		transform: translateX(2%);
-<<<<<<< HEAD
 	}			
-=======
-	}
->>>>>>> split-template
 	100% {
 		transform: translateX(0%);
 	}
@@ -252,7 +184,7 @@ slideLeft
 	50%{
 		-webkit-transform: translateX(-8%);
 	}
-/*	65%{
+	/*65%{
 		-webkit-transform: translateX(4%);
 	}
 	80%{
@@ -260,11 +192,7 @@ slideLeft
 	}*/
 	95%{
 		-webkit-transform: translateX(2%);
-<<<<<<< HEAD
 	}			
-=======
-	}
->>>>>>> split-template
 	100% {
 		-webkit-transform: translateX(0%);
 	}
@@ -279,7 +207,6 @@ slideRight
 
 .slideRight{
 	animation-name: slideRight;
-<<<<<<< HEAD
 	-webkit-animation-name: slideRight;	
 
 	animation-duration: 1s;	
@@ -289,17 +216,6 @@ slideRight
 	-webkit-animation-timing-function: ease-in-out;		
 
 	visibility: visible !important;	
-=======
-	-webkit-animation-name: slideRight;
-
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease-in-out;
-	-webkit-animation-timing-function: ease-in-out;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes slideRight {
@@ -317,17 +233,10 @@ slideRight
 	}
 	95%{
 		transform: translateX(-2%);
-<<<<<<< HEAD
 	}			
 	100% {
 		transform: translateX(0%);
 	}	
-=======
-	}
-	100% {
-		transform: translateX(0%);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes slideRight {
@@ -345,11 +254,7 @@ slideRight
 	}
 	95%{
 		-webkit-transform: translateX(-2%);
-<<<<<<< HEAD
 	}			
-=======
-	}
->>>>>>> split-template
 	100% {
 		-webkit-transform: translateX(0%);
 	}
@@ -364,7 +269,6 @@ slideExpandUp
 
 .slideExpandUp{
 	animation-name: slideExpandUp;
-<<<<<<< HEAD
 	-webkit-animation-name: slideExpandUp;	
 
 	animation-duration: 1.6s;	
@@ -374,17 +278,6 @@ slideExpandUp
 	-webkit-animation-timing-function: ease -out;
 
 	visibility: visible !important;	
-=======
-	-webkit-animation-name: slideExpandUp;
-
-	animation-duration: 1.6s;
-	-webkit-animation-duration: 1.6s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease -out;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes slideExpandUp {
@@ -393,11 +286,7 @@ slideExpandUp
 	}
 	30%{
 		transform: translateY(-8%) scaleX(0.5);
-<<<<<<< HEAD
 	}	
-=======
-	}
->>>>>>> split-template
 	40%{
 		transform: translateY(2%) scaleX(0.5);
 	}
@@ -405,7 +294,6 @@ slideExpandUp
 		transform: translateY(0%) scaleX(1.1);
 	}
 	60%{
-<<<<<<< HEAD
 		transform: translateY(0%) scaleX(0.9);		
 	}
 	70% {
@@ -419,21 +307,6 @@ slideExpandUp
 	}	
 	100%{
 		transform: translateY(0%) scaleX(1);		
-=======
-		transform: translateY(0%) scaleX(0.9);
-	}
-	70% {
-		transform: translateY(0%) scaleX(1.05);
-	}
-	80%{
-		transform: translateY(0%) scaleX(0.95);
-	}
-	90% {
-		transform: translateY(0%) scaleX(1.02);
-	}
-	100%{
-		transform: translateY(0%) scaleX(1);
->>>>>>> split-template
 	}
 }
 
@@ -443,11 +316,7 @@ slideExpandUp
 	}
 	30%{
 		-webkit-transform: translateY(-8%) scaleX(0.5);
-<<<<<<< HEAD
 	}	
-=======
-	}
->>>>>>> split-template
 	40%{
 		-webkit-transform: translateY(2%) scaleX(0.5);
 	}
@@ -455,7 +324,6 @@ slideExpandUp
 		-webkit-transform: translateY(0%) scaleX(1.1);
 	}
 	60%{
-<<<<<<< HEAD
 		-webkit-transform: translateY(0%) scaleX(0.9);		
 	}
 	70% {
@@ -469,21 +337,6 @@ slideExpandUp
 	}	
 	100%{
 		-webkit-transform: translateY(0%) scaleX(1);		
-=======
-		-webkit-transform: translateY(0%) scaleX(0.9);
-	}
-	70% {
-		-webkit-transform: translateY(0%) scaleX(1.05);
-	}
-	80%{
-		-webkit-transform: translateY(0%) scaleX(0.95);
-	}
-	90% {
-		-webkit-transform: translateY(0%) scaleX(1.02);
-	}
-	100%{
-		-webkit-transform: translateY(0%) scaleX(1);
->>>>>>> split-template
 	}
 }
 
@@ -496,7 +349,6 @@ expandUp
 
 .expandUp{
 	animation-name: expandUp;
-<<<<<<< HEAD
 	-webkit-animation-name: expandUp;	
 
 	animation-duration: 0.7s;	
@@ -506,17 +358,6 @@ expandUp
 	-webkit-animation-timing-function: ease;		
 
 	visibility: visible !important;	
-=======
-	-webkit-animation-name: expandUp;
-
-	animation-duration: 0.7s;
-	-webkit-animation-duration: 0.7s;
-
-	animation-timing-function: ease;
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes expandUp {
@@ -528,17 +369,10 @@ expandUp
 	}
 	75%{
 		transform: translateY(3%);
-<<<<<<< HEAD
 	}	
 	100% {
 		transform: translateY(0%) scale(1) scaleY(1);
 	}	
-=======
-	}
-	100% {
-		transform: translateY(0%) scale(1) scaleY(1);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes expandUp {
@@ -550,17 +384,10 @@ expandUp
 	}
 	75%{
 		-webkit-transform: translateY(3%);
-<<<<<<< HEAD
 	}	
 	100% {
 		-webkit-transform: translateY(0%) scale(1) scaleY(1);
 	}	
-=======
-	}
-	100% {
-		-webkit-transform: translateY(0%) scale(1) scaleY(1);
-	}
->>>>>>> split-template
 }
 
 /*
@@ -571,7 +398,6 @@ fadeIn
 
 .fadeIn{
 	animation-name: fadeIn;
-<<<<<<< HEAD
 	-webkit-animation-name: fadeIn;	
 
 	animation-duration: 1.5s;	
@@ -581,23 +407,11 @@ fadeIn
 	-webkit-animation-timing-function: ease-in-out;		
 
 	visibility: visible !important;	
-=======
-	-webkit-animation-name: fadeIn;
-
-	animation-duration: 1.5s;
-	-webkit-animation-duration: 1.5s;
-
-	animation-timing-function: ease-in-out;
-	-webkit-animation-timing-function: ease-in-out;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes fadeIn {
 	0% {
 		transform: scale(0);
-<<<<<<< HEAD
 		opacity: 0.0;		
 	}
 	60% {
@@ -611,52 +425,24 @@ fadeIn
 		transform: scale(1);
 		opacity: 1;	
 	}		
-=======
-		opacity: 0.0;
-	}
-	60% {
-		transform: scale(1.1);
-	}
-	80% {
-		transform: scale(0.9);
-		opacity: 1;
-	}
-	100% {
-		transform: scale(1);
-		opacity: 1;
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes fadeIn {
 	0% {
 		-webkit-transform: scale(0);
-<<<<<<< HEAD
 		opacity: 0.0;		
-=======
-		opacity: 0.0;
->>>>>>> split-template
 	}
 	60% {
 		-webkit-transform: scale(1.1);
 	}
 	80% {
 		-webkit-transform: scale(0.9);
-<<<<<<< HEAD
 		opacity: 1;	
 	}	
 	100% {
 		-webkit-transform: scale(1);
 		opacity: 1;	
 	}		
-=======
-		opacity: 1;
-	}
-	100% {
-		-webkit-transform: scale(1);
-		opacity: 1;
-	}
->>>>>>> split-template
 }
 
 /*
@@ -668,7 +454,6 @@ expandOpen
 
 .expandOpen{
 	animation-name: expandOpen;
-<<<<<<< HEAD
 	-webkit-animation-name: expandOpen;	
 
 	animation-duration: 1.2s;	
@@ -678,83 +463,42 @@ expandOpen
 	-webkit-animation-timing-function: ease-out;	
 
 	visibility: visible !important;	
-=======
-	-webkit-animation-name: expandOpen;
-
-	animation-duration: 1.2s;
-	-webkit-animation-duration: 1.2s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes expandOpen {
 	0% {
-<<<<<<< HEAD
 		transform: scale(1.8);		
 	}
 	50% {
 		transform: scale(0.95);
 	}	
-=======
-		transform: scale(1.8);
-	}
-	50% {
-		transform: scale(0.95);
-	}
->>>>>>> split-template
 	80% {
 		transform: scale(1.05);
 	}
 	90% {
 		transform: scale(0.98);
-<<<<<<< HEAD
 	}	
 	100% {
 		transform: scale(1);
 	}			
-=======
-	}
-	100% {
-		transform: scale(1);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes expandOpen {
 	0% {
-<<<<<<< HEAD
 		-webkit-transform: scale(1.8);		
 	}
 	50% {
 		-webkit-transform: scale(0.95);
 	}	
-=======
-		-webkit-transform: scale(1.8);
-	}
-	50% {
-		-webkit-transform: scale(0.95);
-	}
->>>>>>> split-template
 	80% {
 		-webkit-transform: scale(1.05);
 	}
 	90% {
 		-webkit-transform: scale(0.98);
-<<<<<<< HEAD
 	}	
 	100% {
 		-webkit-transform: scale(1);
 	}					
-=======
-	}
-	100% {
-		-webkit-transform: scale(1);
-	}
->>>>>>> split-template
 }
 
 /*
@@ -766,7 +510,6 @@ bigEntrance
 
 .bigEntrance{
 	animation-name: bigEntrance;
-<<<<<<< HEAD
 	-webkit-animation-name: bigEntrance;	
 
 	animation-duration: 1.6s;	
@@ -776,17 +519,6 @@ bigEntrance
 	-webkit-animation-timing-function: ease-out;	
 
 	visibility: visible !important;			
-=======
-	-webkit-animation-name: bigEntrance;
-
-	animation-duration: 1.6s;
-	-webkit-animation-duration: 1.6s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes bigEntrance {
@@ -795,11 +527,7 @@ bigEntrance
 		opacity: 0.2;
 	}
 	30% {
-<<<<<<< HEAD
 		transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
-=======
-		transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
->>>>>>> split-template
 		opacity: 1;
 	}
 	45% {
@@ -807,21 +535,14 @@ bigEntrance
 		opacity: 1;
 	}
 	60% {
-<<<<<<< HEAD
 		transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
 		opacity: 1;
 	}	
-=======
-		transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
->>>>>>> split-template
 	75% {
 		transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
 		opacity: 1;
 	}
 	90% {
-<<<<<<< HEAD
 		transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
 		opacity: 1;
 	}	
@@ -829,15 +550,6 @@ bigEntrance
 		transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
 		opacity: 1;
 	}		
-=======
-		transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
-	100% {
-		transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes bigEntrance {
@@ -846,11 +558,7 @@ bigEntrance
 		opacity: 0.2;
 	}
 	30% {
-<<<<<<< HEAD
 		-webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
-=======
-		-webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
->>>>>>> split-template
 		opacity: 1;
 	}
 	45% {
@@ -858,21 +566,14 @@ bigEntrance
 		opacity: 1;
 	}
 	60% {
-<<<<<<< HEAD
 		-webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
 		opacity: 1;
 	}	
-=======
-		-webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
->>>>>>> split-template
 	75% {
 		-webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
 		opacity: 1;
 	}
 	90% {
-<<<<<<< HEAD
 		-webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
 		opacity: 1;
 	}	
@@ -880,15 +581,6 @@ bigEntrance
 		-webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
 		opacity: 1;
 	}				
-=======
-		-webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
-	100% {
-		-webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
->>>>>>> split-template
 }
 
 /*
@@ -899,34 +591,19 @@ hatch
 
 .hatch{
 	animation-name: hatch;
-<<<<<<< HEAD
 	-webkit-animation-name: hatch;	
 
 	animation-duration: 2s;	
 	-webkit-animation-duration: 2s;
 
 	animation-timing-function: ease-in-out;	
-=======
-	-webkit-animation-name: hatch;
-
-	animation-duration: 2s;
-	-webkit-animation-duration: 2s;
-
-	animation-timing-function: ease-in-out;
->>>>>>> split-template
 	-webkit-animation-timing-function: ease-in-out;
 
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
-<<<<<<< HEAD
 	-webkit-transform-origin: 50% 100%; 
 
 	visibility: visible !important;		
-=======
-	-webkit-transform-origin: 50% 100%;
-
-	visibility: visible !important;
->>>>>>> split-template
 }
 
 @keyframes hatch {
@@ -941,7 +618,6 @@ hatch
 	}
 	50% {
 		transform: rotate(-2deg);
-<<<<<<< HEAD
 	}	
 	65% {
 		transform: rotate(1deg);
@@ -952,18 +628,6 @@ hatch
 	100% {
 		transform: rotate(0deg);
 	}									
-=======
-	}
-	65% {
-		transform: rotate(1deg);
-	}
-	80% {
-		transform: rotate(-1deg);
-	}
-	100% {
-		transform: rotate(0deg);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes hatch {
@@ -978,7 +642,6 @@ hatch
 	}
 	50% {
 		-webkit-transform: rotate(-2deg);
-<<<<<<< HEAD
 	}	
 	65% {
 		-webkit-transform: rotate(1deg);
@@ -989,18 +652,6 @@ hatch
 	100% {
 		-webkit-transform: rotate(0deg);
 	}		
-=======
-	}
-	65% {
-		-webkit-transform: rotate(1deg);
-	}
-	80% {
-		-webkit-transform: rotate(-1deg);
-	}
-	100% {
-		-webkit-transform: rotate(0deg);
-	}
->>>>>>> split-template
 }
 
 
@@ -1013,7 +664,6 @@ bounce
 
 .bounce{
 	animation-name: bounce;
-<<<<<<< HEAD
 	-webkit-animation-name: bounce;	
 
 	animation-duration: 1.6s;	
@@ -1025,19 +675,6 @@ bounce
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
 	-webkit-transform-origin: 50% 100%; 	
-=======
-	-webkit-animation-name: bounce;
-
-	animation-duration: 1.6s;
-	-webkit-animation-duration: 1.6s;
-
-	animation-timing-function: ease;
-	-webkit-animation-timing-function: ease;
-
-	transform-origin: 50% 100%;
-	-ms-transform-origin: 50% 100%;
-	-webkit-transform-origin: 50% 100%;
->>>>>>> split-template
 }
 
 @keyframes bounce {
@@ -1052,7 +689,6 @@ bounce
 	}
 	80%{
 		transform: translateY(0%) scaleY(1.05) scaleX(1);
-<<<<<<< HEAD
 	}	
 	90%{
 		transform: translateY(0%) scaleY(0.95) scaleX(1);
@@ -1060,15 +696,6 @@ bounce
 	100%{
 		transform: translateY(0%) scaleY(1) scaleX(1);
 	}	
-=======
-	}
-	90%{
-		transform: translateY(0%) scaleY(0.95) scaleX(1);
-	}
-	100%{
-		transform: translateY(0%) scaleY(1) scaleX(1);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes bounce {
@@ -1083,7 +710,6 @@ bounce
 	}
 	80%{
 		-webkit-transform: translateY(0%) scaleY(1.05) scaleX(1);
-<<<<<<< HEAD
 	}	
 	90%{
 		-webkit-transform: translateY(0%) scaleY(0.95) scaleX(1);
@@ -1091,15 +717,6 @@ bounce
 	100%{
 		-webkit-transform: translateY(0%) scaleY(1) scaleX(1);
 	}		
-=======
-	}
-	90%{
-		-webkit-transform: translateY(0%) scaleY(0.95) scaleX(1);
-	}
-	100%{
-		-webkit-transform: translateY(0%) scaleY(1) scaleX(1);
-	}
->>>>>>> split-template
 }
 
 
@@ -1111,15 +728,9 @@ pulse
 
 .pulse{
 	animation-name: pulse;
-<<<<<<< HEAD
 	-webkit-animation-name: pulse;	
 
 	animation-duration: 1.5s;	
-=======
-	-webkit-animation-name: pulse;
-
-	animation-duration: 1.5s;
->>>>>>> split-template
 	-webkit-animation-duration: 1.5s;
 
 	animation-iteration-count: infinite;
@@ -1129,7 +740,6 @@ pulse
 @keyframes pulse {
 	0% {
 		transform: scale(0.9);
-<<<<<<< HEAD
 		opacity: 0.7;		
 	}
 	50% {
@@ -1140,24 +750,11 @@ pulse
 		transform: scale(0.9);
 		opacity: 0.7;	
 	}			
-=======
-		opacity: 0.7;
-	}
-	50% {
-		transform: scale(1);
-		opacity: 1;
-	}
-	100% {
-		transform: scale(0.9);
-		opacity: 0.7;
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes pulse {
 	0% {
 		-webkit-transform: scale(0.95);
-<<<<<<< HEAD
 		opacity: 0.7;		
 	}
 	50% {
@@ -1168,18 +765,6 @@ pulse
 		-webkit-transform: scale(0.95);
 		opacity: 0.7;	
 	}			
-=======
-		opacity: 0.7;
-	}
-	50% {
-		-webkit-transform: scale(1);
-		opacity: 1;
-	}
-	100% {
-		-webkit-transform: scale(0.95);
-		opacity: 0.7;
-	}
->>>>>>> split-template
 }
 
 /*
@@ -1192,11 +777,7 @@ floating
 	animation-name: floating;
 	-webkit-animation-name: floating;
 
-<<<<<<< HEAD
 	animation-duration: 1.5s;	
-=======
-	animation-duration: 1.5s;
->>>>>>> split-template
 	-webkit-animation-duration: 1.5s;
 
 	animation-iteration-count: infinite;
@@ -1205,7 +786,6 @@ floating
 
 @keyframes floating {
 	0% {
-<<<<<<< HEAD
 		transform: translateY(0%);	
 	}
 	50% {
@@ -1214,21 +794,10 @@ floating
 	100% {
 		transform: translateY(0%);
 	}			
-=======
-		transform: translateY(0%);
-	}
-	50% {
-		transform: translateY(8%);
-	}
-	100% {
-		transform: translateY(0%);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes floating {
 	0% {
-<<<<<<< HEAD
 		-webkit-transform: translateY(0%);	
 	}
 	50% {
@@ -1237,16 +806,6 @@ floating
 	100% {
 		-webkit-transform: translateY(0%);
 	}			
-=======
-		-webkit-transform: translateY(0%);
-	}
-	50% {
-		-webkit-transform: translateY(8%);
-	}
-	100% {
-		-webkit-transform: translateY(0%);
-	}
->>>>>>> split-template
 }
 
 /*
@@ -1257,15 +816,9 @@ tossing
 
 .tossing{
 	animation-name: tossing;
-<<<<<<< HEAD
 	-webkit-animation-name: tossing;	
 
 	animation-duration: 2.5s;	
-=======
-	-webkit-animation-name: tossing;
-
-	animation-duration: 2.5s;
->>>>>>> split-template
 	-webkit-animation-duration: 2.5s;
 
 	animation-iteration-count: infinite;
@@ -1274,44 +827,26 @@ tossing
 
 @keyframes tossing {
 	0% {
-<<<<<<< HEAD
 		transform: rotate(-4deg);	
-=======
-		transform: rotate(-4deg);
->>>>>>> split-template
 	}
 	50% {
 		transform: rotate(4deg);
 	}
 	100% {
-<<<<<<< HEAD
 		transform: rotate(-4deg);	
 	}						
-=======
-		transform: rotate(-4deg);
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes tossing {
 	0% {
-<<<<<<< HEAD
 		-webkit-transform: rotate(-4deg);	
-=======
-		-webkit-transform: rotate(-4deg);
->>>>>>> split-template
 	}
 	50% {
 		-webkit-transform: rotate(4deg);
 	}
 	100% {
-<<<<<<< HEAD
 		-webkit-transform: rotate(-4deg);	
 	}				
-=======
-		-webkit-transform: rotate(-4deg);
-	}
->>>>>>> split-template
 }
 
 /*
@@ -1322,7 +857,6 @@ pullUp
 
 .pullUp{
 	animation-name: pullUp;
-<<<<<<< HEAD
 	-webkit-animation-name: pullUp;	
 
 	animation-duration: 1.1s;	
@@ -1334,19 +868,6 @@ pullUp
 	transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
 	-webkit-transform-origin: 50% 100%; 		
-=======
-	-webkit-animation-name: pullUp;
-
-	animation-duration: 1.1s;
-	-webkit-animation-duration: 1.1s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	transform-origin: 50% 100%;
-	-ms-transform-origin: 50% 100%;
-	-webkit-transform-origin: 50% 100%;
->>>>>>> split-template
 }
 
 @keyframes pullUp {
@@ -1364,21 +885,13 @@ pullUp
 	}
 	100% {
 		transform: scaleY(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		transform: scaleY(1.01);
 	}
 	100% {
 		transform: scaleY(1);
-<<<<<<< HEAD
 	}							
-=======
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes pullUp {
@@ -1396,21 +909,13 @@ pullUp
 	}
 	100% {
 		-webkit-transform: scaleY(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		-webkit-transform: scaleY(1.01);
 	}
 	100% {
 		-webkit-transform: scaleY(1);
-<<<<<<< HEAD
 	}		
-=======
-	}
->>>>>>> split-template
 }
 
 /*
@@ -1421,7 +926,6 @@ pullDown
 
 .pullDown{
 	animation-name: pullDown;
-<<<<<<< HEAD
 	-webkit-animation-name: pullDown;	
 
 	animation-duration: 1.1s;	
@@ -1433,19 +937,6 @@ pullDown
 	transform-origin: 50% 0%;
 	-ms-transform-origin: 50% 0%;
 	-webkit-transform-origin: 50% 0%; 		
-=======
-	-webkit-animation-name: pullDown;
-
-	animation-duration: 1.1s;
-	-webkit-animation-duration: 1.1s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	transform-origin: 50% 0%;
-	-ms-transform-origin: 50% 0%;
-	-webkit-transform-origin: 50% 0%;
->>>>>>> split-template
 }
 
 @keyframes pullDown {
@@ -1463,21 +954,13 @@ pullDown
 	}
 	100% {
 		transform: scaleY(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		transform: scaleY(1.01);
 	}
 	100% {
 		transform: scaleY(1);
-<<<<<<< HEAD
 	}							
-=======
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes pullDown {
@@ -1495,21 +978,13 @@ pullDown
 	}
 	100% {
 		-webkit-transform: scaleY(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		-webkit-transform: scaleY(1.01);
 	}
 	100% {
 		-webkit-transform: scaleY(1);
-<<<<<<< HEAD
 	}		
-=======
-	}
->>>>>>> split-template
 }
 
 /*
@@ -1520,7 +995,6 @@ stretchLeft
 
 .stretchLeft{
 	animation-name: stretchLeft;
-<<<<<<< HEAD
 	-webkit-animation-name: stretchLeft;	
 
 	animation-duration: 1.5s;	
@@ -1532,19 +1006,6 @@ stretchLeft
 	transform-origin: 100% 0%;
 	-ms-transform-origin: 100% 0%;
 	-webkit-transform-origin: 100% 0%; 
-=======
-	-webkit-animation-name: stretchLeft;
-
-	animation-duration: 1.5s;
-	-webkit-animation-duration: 1.5s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	transform-origin: 100% 0%;
-	-ms-transform-origin: 100% 0%;
-	-webkit-transform-origin: 100% 0%;
->>>>>>> split-template
 }
 
 @keyframes stretchLeft {
@@ -1562,21 +1023,13 @@ stretchLeft
 	}
 	100% {
 		transform: scaleX(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		transform: scaleX(1.01);
 	}
 	100% {
 		transform: scaleX(1);
-<<<<<<< HEAD
 	}							
-=======
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes stretchLeft {
@@ -1594,21 +1047,13 @@ stretchLeft
 	}
 	100% {
 		-webkit-transform: scaleX(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		-webkit-transform: scaleX(1.01);
 	}
 	100% {
 		-webkit-transform: scaleX(1);
-<<<<<<< HEAD
 	}		
-=======
-	}
->>>>>>> split-template
 }
 
 /*
@@ -1619,7 +1064,6 @@ stretchRight
 
 .stretchRight{
 	animation-name: stretchRight;
-<<<<<<< HEAD
 	-webkit-animation-name: stretchRight;	
 
 	animation-duration: 1.5s;	
@@ -1631,19 +1075,6 @@ stretchRight
 	transform-origin: 0% 0%;
 	-ms-transform-origin: 0% 0%;
 	-webkit-transform-origin: 0% 0%; 		
-=======
-	-webkit-animation-name: stretchRight;
-
-	animation-duration: 1.5s;
-	-webkit-animation-duration: 1.5s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	transform-origin: 0% 0%;
-	-ms-transform-origin: 0% 0%;
-	-webkit-transform-origin: 0% 0%;
->>>>>>> split-template
 }
 
 @keyframes stretchRight {
@@ -1661,21 +1092,13 @@ stretchRight
 	}
 	100% {
 		transform: scaleX(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		transform: scaleX(1.01);
 	}
 	100% {
 		transform: scaleX(1);
-<<<<<<< HEAD
 	}							
-=======
-	}
->>>>>>> split-template
 }
 
 @-webkit-keyframes stretchRight {
@@ -1693,19 +1116,11 @@ stretchRight
 	}
 	100% {
 		-webkit-transform: scaleX(0.98);
-<<<<<<< HEAD
 	}				
-=======
-	}
->>>>>>> split-template
 	80% {
 		-webkit-transform: scaleX(1.01);
 	}
 	100% {
 		-webkit-transform: scaleX(1);
-<<<<<<< HEAD
 	}		
-=======
-	}
->>>>>>> split-template
 }

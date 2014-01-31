@@ -163,7 +163,7 @@ slideLeft
 	50%{
 		transform: translateX(-8%);
 	}
-/*	65%{
+	/*65%{
 		transform: translateX(4%);
 	}
 	80%{
@@ -184,7 +184,7 @@ slideLeft
 	50%{
 		-webkit-transform: translateX(-8%);
 	}
-/*	65%{
+	/*65%{
 		-webkit-transform: translateX(4%);
 	}
 	80%{
