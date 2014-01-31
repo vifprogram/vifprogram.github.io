@@ -167,6 +167,7 @@ h4 {
 }
 .nav-pills > li {
   float: left;
+  margin-left: 10px;
 }
 .nav-pills > li > a {
   border-radius: 5px;

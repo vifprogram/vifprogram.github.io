@@ -162,6 +162,7 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+          placeholder: "use date format"
       - name: "splash"
         field:
           element: "text"
