@@ -19,9 +19,6 @@ module JB
     SOURCE = "."
     Paths = {
       :layouts => "_layouts",
-      :themes => "_includes/themes",
-      :theme_assets => "assets/themes",
-      :theme_packages => "_theme_packages",
       :posts => "_posts"
     }
     
