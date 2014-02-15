@@ -1,0 +1,161 @@
+@import 'variables';
+
+.banner {
+    background-image:url("../images/pencils.png");
+    background-position:  center top;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: 1em;
+    height: 100%;
+    overflow: visible;
+    .container {
+        text-align: center;
+        display:table-cell;
+        margin:0 auto;
+        vertical-align: middle;
+    }
+    h1 {
+        color: #fff;
+        font-size: 2.888888888888889em;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-top: 80px;
+        font-weight:500;
+        opacity: 0;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    h1:hover {
+        -webkit-transform: translate(0px, 5px);
+        -moz-transform:  translate(0px, 5px);
+        transform:  translate(0px, 5px);
+    }
+    #header-photo {
+        margin-top:0px;
+    }
+}
+.promo{  
+    .pad{
+        padding-bottom:10px;
+        > img{
+            height:220px;
+        }
+    }
+    h4{
+        margin-top:-40px;
+        text-align:center;
+    }
+}
+.promo1 {
+    .pad{
+        padding-bottom:10px;
+    }
+    > img {
+        height:80px;
+    }
+}
+@media screen and (max-width: 640px) { 
+    .promo, .promo1{
+        position:relative;
+        margin-bottom:10px;
+    }
+}
+.banner_pattern {
+    background: url("../images/textured_stripes.png") repeat scroll left top rgba(0, 0, 0, 0);
+   // background: url("../images/03_overlay_pattern.png") repeat scroll left top rgba(0, 0, 0, 0);
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:0;
+    width: 100%;
+    display:table;
+}
+.banner-logo {
+    width:120px;
+    height:120px;
+}
+#aboutme {
+    margin: 0;
+    padding: 0;
+    li {
+        font-size: 1.333333333333333em;
+        line-height: 1.333333333333333em;
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-transform:uppercase;
+        list-style-type:none;
+    }
+}
+#header {
+   // background-image: url(../images/pencils.jpg);
+  //  background-size: cover;
+}
+
+.social {
+    margin:0 5px 40px;
+    display: block;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    -ms-animation-delay: 0.7s;
+    -o-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    a {
+        opacity: .75;
+        margin-right:15px;
+    }
+}
+.social-last {
+    margin-right:0px !important;
+}
+.social a:hover, .social a:focus, .social a:active {
+    opacity: 1;
+}
+.sideline {
+    width: 6%;
+    min-width: 32px;
+    height: 1px;
+    margin:0 1% 7px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px rgba(255, 255, 255, 0.15);
+    display: inline-block;
+    -webkit-animation-duration: 0.7s;
+    -moz-animation-duration: 0.7s;
+    -ms-animation-duration: 0.7s;
+    -o-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -ms-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.welcome_block.row{
+    margin-top:155px;
+    background-clip:content-box;
+}
+/*.go_global{
+   background:@fpo;
+    height:250px;
+    background-clip:content-box;
+}*/

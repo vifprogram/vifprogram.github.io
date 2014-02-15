@@ -1,0 +1,59 @@
+.pulsate-opacity {
+  -webkit-animation: pulsate-op 2s infinite;
+  /* Safari 4+ */
+  -moz-animation: pulsate-op 2s infinite;
+  /* Fx 5+ */
+  -o-animation: pulsate-op 2s infinite;
+  /* Opera 12+ */
+  animation: pulsate-op 2s infinite;
+  /* IE 10+ */
+}
+@-webkit-keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-moz-keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-o-keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+/* loading style */
+#preloader {background-color: #FFFFFF;bottom: 0;left: 0;position: fixed;right: 0;top: 0;z-index: 2147483647;}
+#status {background-image: url("../images/00_preloader.GIF");background-position: center center;background-repeat: no-repeat;height:80px;
+left: 50%;top: 50%;position: absolute;width:80px;margin: -40px 0 0 -40px;}
+/*end loading style */
