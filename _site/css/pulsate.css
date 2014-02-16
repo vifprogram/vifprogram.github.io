@@ -54,6 +54,6 @@
 }
 /* loading style */
 #preloader {background-color: #FFFFFF;bottom: 0;left: 0;position: fixed;right: 0;top: 0;z-index: 2147483647;}
-#status {background-image: url("../images/00_preloader.GIF");background-position: center center;background-repeat: no-repeat;height:80px;
+#status {background-image: url("../images/00_preloader.gif");background-position: center center;background-repeat: no-repeat;height:80px;
 left: 50%;top: 50%;position: absolute;width:80px;margin: -40px 0 0 -40px;}
 /*end loading style */
