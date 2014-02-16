@@ -31,7 +31,6 @@ title: 'VIF Program'
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
-		<link rel="stylesheet" type="text/css" href="css/supersized.css"/>
 		<link rel="stylesheet" type="text/css" href="css/vif.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
@@ -134,7 +133,7 @@ title: 'VIF Program'
 
 		<!-- End of Navigation Bar -->
 		<!-- Banner section-->
-	<section id="header" class="" style="background-position: 0px 0px;">
+	<section id="header" class="banner" style="background-position: 0px 0px;">
 		<div class="banner_pattern">
 			<div class="container">
 				<div class="welcome_block row">
@@ -1516,8 +1515,6 @@ title: 'VIF Program'
 			<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 			<script type="text/javascript" src="js/jquery.timeago.js"></script>
 			<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-			<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-			<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
 			<script type="text/javascript" src="js/scripts.js"></script>
 			<script>
 				jQuery(document).ready(function() {
@@ -1527,9 +1524,7 @@ title: 'VIF Program'
 					
 						
 						});
-				if($('#btn-home').hasClass('active')){
-							$('.sub').hide();
-						}
+				
 				// integrate with the carousel previewer
 				var current = 0,
 					$preview = $( '#preview' ),
@@ -1554,13 +1549,7 @@ title: 'VIF Program'
 					carousel.setCurrent( pos );
 				}
 			
-				jQuery(function($){
-					$.supersized({
-						slides: [
-						{image : 'images/pencils.jpg'}
-						]
-					});
-				});
+				
 					
 				var offsetHeight=110;
 
@@ -1583,7 +1572,9 @@ title: 'VIF Program'
 							}
 						});
 
-					
+					if($('#btn-home').hasClass('active')){
+					$('.sub').hide();
+					}
 				});
 				
 

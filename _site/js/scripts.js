@@ -21,9 +21,6 @@ jQuery(document).ready(function() {
 		if (position >= headerHeight - 100){
 				$('.navbar').addClass('minified');
 		} 
-		//else {
-		//		$('.navbar').removeClass('minified');
-		//}
 
 
 		// Parallax effect on #Header
@@ -39,7 +36,7 @@ jQuery(document).ready(function() {
 			$('.scrolltotop').removeClass('show-to-top');
 		}
 
-		// Show submenus
+		
 
 	
 
@@ -75,7 +72,7 @@ jQuery(document).ready(function() {
 
 	
 	
-	//mesonary service block
+	//masonry block
 	// var container = document.querySelector('#our-service-container');
 	// var msnry = new Masonry( container, {
 	// // options
@@ -86,46 +83,13 @@ jQuery(document).ready(function() {
 	//time line scrollbar
 	$('#default').perfectScrollbar({wheelPropagation:true});
 
-	//Count numbers
-	//(function(g){
-	//g.fn.countUp=function(k){
-	//	var m=parseInt(g(this).text(),10),l,o=g(this);
-	//	function n(){m++;o.text(m.toString());l=setTimeout(n,k)}l=setTimeout(n,k)};g(document).ready(function(){g("#hours").countUp(3000);g("#twitter-follo").countUp(1500);g("#psd").countUp(2000);});})(jQuery);
 	
 	//Portfolio filterable grid
  $('#portfolio-grid').mixitup({
 	targetSelector: '.portfolio-mix',
 	});
 	
-	//client slider
-	// $("#clients-slider").flexisel({
-	// 	 visibleItems: 5,
- //        enableResponsiveBreakpoints: true,//responsive layout
-	// 	autoPlay : true,//auto play
-	// 	clone : true,
- //        responsiveBreakpoints: { 
- //            portrait: { 
- //                changePoint:480,//resolution change point
- //                visibleItems: 1//visible item
- //            }, 
- //            landscape: { 
- //                changePoint:640,//resolution change point
- //                visibleItems: 3//visible item
- //            },
- //            tablet: { 
- //                changePoint:768,//resolution change point
- //                visibleItems: 3//visible item
- //            }
- //        }
- //    });
-
-   
-	// Testimonial slider
-	// jQuery(function() {
-	// 	jQuery('#da-slider').cslider({
-	// 		bgincrement	: 0
-	// 	});
-	// });	
+	
 	
 	//show hide portfolio category
 	$('#showhidetarget').hide();
@@ -133,24 +97,6 @@ jQuery(document).ready(function() {
 		$('#showhidetarget').toggle(400);
     });
 	
-	//Twitter feed
-	/*jQuery(function(){
-		jQuery('#tweets').tweetable({
-		username: 'envato', //twitter username 
-		time: true, 
-		rotate: true, 
-		speed: 7000, 
-		limit: 5, 
-		replies: true,
-		position: 'append',
-		failed: "Sorry, twitter is currently unavailable for this user.",
-		loading: "Loading tweets...",
-		html5: true,
-		onComplete:function($ul){
-			$('time').timeago();
-		}
-		});
-	});*/
 	
 	//Function to prevent Default Events
 	function pde(e){
@@ -168,32 +114,11 @@ $(window).load(function() {
 	//$("#status").fadeOut();
 	$("#preloader").delay(350).fadeOut("slow");
 	
-	// Animate the header components
-	// $(window).load(function () {
-	// 	jQuery('#header-photo').delay( 100 ).animate({opacity: '1', 'margin-top' : '0'}, 1000, 'easeInOutCubic', function() {
-	// 		jQuery('#header h1').delay( -200 ).animate({opacity: '1', 'padding-top': '0'}, 600, 'easeInOutCubic', function() {
-	// 			jQuery('#header p').animate({opacity: '1'}, 400, 'easeInOutCubic');
-	// 		});
-	// 	});
-	// });
-	
-	//process slider
-/*	$("#process-slider").flexslider({
-	controlsContainer:"#process-steps",
-	directionNav:!1,
-	manualControls:"#process-steps .icon",
-	pauseOnAction:!0,
-	slideshow:!1,
-	useCSS:!1})*/
+
 });
   
 
-//banner list ticker
-$(document).ready(function(){
-$("ul#aboutme").list_ticker({speed:5000,effect:"fade"})
-});
-(function($){$.fn.list_ticker=function(options){var defaults={speed:5000,effect:"fade"};var options=$.extend(defaults,options);return this.each(function(){var obj=$(this);var list=obj.children();list.not(":first").hide();setInterval(function(){list=obj.children();list.not(":first").hide();var first_li=list.eq(0);var second_li=list.eq(1);if(options.effect=="fade")first_li.fadeOut(function(){second_li.fadeIn();first_li.remove().appendTo(obj)})},options.speed)})}})(jQuery);
-//end
+
 
 //header Parallax image
 (function($){
