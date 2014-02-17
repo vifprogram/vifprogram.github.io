@@ -1,10 +1,10 @@
-   @media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
   #portfolio .portfolio-row .portfolio-mix{
 width:33.333%;
 }
 .our-service {width: 48%;margin:0 10px 10px 0;}
 }
-   @media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
    
    .our-service {width: 46%;margin:0 10px 10px 0;}
   #portfolio .portfolio-row .portfolio-mix{

@@ -24,9 +24,9 @@ jQuery(document).ready(function() {
 
 
 		// Parallax effect on #Header
-		$(".banner .container").css({
-			'opacity' : (1 - position/500)
-		});
+		// $(".banner .container").css({
+		// 	'opacity' : (1 - position/500)
+		// });
 
 
 		// Show "Back to Top" button
@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
 	$('.navbar-nav li a').click(function(evt){
 		var place = $(this).attr('href');
 		$('html, body').animate({
-			scrollTop: $(place).offset().top - 110
+			scrollTop: $(place).offset().top - 108
 			}, 1200, 'easeInOutCubic');
 		pde(evt);
 	});
