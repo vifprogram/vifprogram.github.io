@@ -1,7 +1,57 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
 @import 'media-queries.css';
+.ShimmerBoldOT {
+  font-family: ShimmerBoldOT;
+  font-weight: normal;
+  font-style: normal;
+}
+.ShimmerOT {
+  font-family: ShimmerOT;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrinted-One {
+  font-family: BrandonPrinted-One;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrintedOne-Shadow {
+  font-family: BrandonPrintedOne-Shadow;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrintedTwo-Shadow {
+  font-family: BrandonPrintedTwo-Shadow;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrinted-Shadow {
+  font-family: BrandonPrinted-Shadow;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrinted-Two {
+  font-family: BrandonPrinted-Two;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrinted-Inline {
+  font-family: BrandonPrinted-Inline;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrinted-Extras {
+  font-family: BrandonPrinted-Extras;
+  font-weight: normal;
+  font-style: normal;
+}
+.BrandonPrinted-Double {
+  font-family: BrandonPrinted-Double;
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  font-family: Scada, Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.5em;
   height: 100%;
@@ -25,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arvo, Arial, Helvetica, sans-serif;
+  font-family: BrandonPrinted-One;
 }
 h1 {
   font-size: 36px;
@@ -36,6 +86,12 @@ h2 {
 }
 h3 {
   font-size: 24px;
+}
+.script {
+  font-family: ShimmerOT !important;
+  color: #545454;
+  text-align: left;
+  text-transform: none;
 }
 .center-text {
   text-align: center;
@@ -1072,14 +1128,21 @@ li.slide article p {
 #splash h1,
 #passport h1,
 #exchange h1,
-#global h1,
-#casestudies h1 {
+#global h1 {
   margin: 0;
   color: #fff;
   font-size: 3.25em;
   font-weight: 400;
   line-height: 70px;
   text-transform: uppercase;
+}
+#casestudies h1 {
+  margin: 0;
+  color: #545454;
+  font-size: 3.25em;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: left;
 }
 #splash h2,
 #passport h2,

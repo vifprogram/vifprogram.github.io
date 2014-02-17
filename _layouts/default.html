@@ -32,7 +32,7 @@ title: 'VIF Program'
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
 		<link rel="stylesheet" type="text/css" href="css/vif.css" />
-		
+		<link rel="stylesheet" type="text/css" href="css/vifprogram_corporate.css" />
 		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -40,6 +40,8 @@ title: 'VIF Program'
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+		<script type="text/javascript">google.load("feeds","1");</script>
 	</head>
 	<body >
 		<!-- pre loder -->
@@ -851,8 +853,8 @@ title: 'VIF Program'
 		<div id="casestudies">
 		 	<div class="container">
 				<div class="row">
-					<div class="col-md-7 col-md-offset-1">
-						<h2>Case Studies</h2>
+					<div class="col-md-8 ">
+						<h1 class="script">Case Study: Carolina Forest</h1>
 					</div>
 					<div class="clear program col-md-3">
 						<p>global gateway provides comprehensive, 'turnkey' support services to districts who want to bring the benefits of dual language programs to their communities. Join the 17 districts and 31 elementary schools that are implementing VIF's exchange immersion program to give their students remarkable opportunities to succes and compete.</p>
@@ -897,7 +899,7 @@ title: 'VIF Program'
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<h2>Dual Language Works</h2>
+						<h2>Other Resources</h2>
 					</div>
 					<div class="col-md-8">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pulvinar purus vel tellus hendrerit, ut fringilla nisi egestas. Vivamus vel tristique libero. Duis facilisis dolor semper, luctus turpis sit amet, fringilla turpis. Aliquam erat volutpat. Quisque elit turpis, porta at purus non, placerat cursus diam. Pellentesque viverra est in neque consequat, posuere pretium erat interdum. Vestibulum at felis at diam ultricies tristique. Donec bibendum purus sapien, in vestibulum lorem pharetra vitae. Suspendisse odio odio, consectetur vel velit vel, dictum pellentesque neque. Nam vulputate semper massa in sollicitudin. Nullam malesuada aliquam iaculis. Nunc sodales felis vel eros pellentesque vestibulum.</p>
@@ -1318,6 +1320,7 @@ title: 'VIF Program'
 				<!-- End Post slider -->
 			</div>			
 		</div>
+		<div id="latest-news"></div>
 	</section>
 	<!-- End of Press Section -->
 
@@ -1411,6 +1414,7 @@ title: 'VIF Program'
 	<!-- End scroll top -->
 			<!-- Bootstrap core JavaScript, plugin and custom scripts
 			================================================== -->
+			
 			<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 			<script src="js/bootstrap.js"></script>
 			<script type="text/javascript" src="js/modernizr.js"></script>
@@ -1438,6 +1442,26 @@ title: 'VIF Program'
 					'use strict';				
 						
 						});
+				var rssfeed = new google.feeds.Feed("http://www.vifprogram.com/vif-blog/latest?format=feed&type=rss"); // URL of your feed
+				rssfeed.setNumEntries(3); // how many posts to pull
+				rssfeed.load(showEntries);
+				 
+				function showEntries(result)
+				{
+					if(!result.error)
+					{
+						var feeds = result.feed.entries;
+						var rssoutput = "";
+						for(var i=0; i<feeds.length; i++)
+						{
+							// REPLACE THIS WITH YOUR OWN HTML
+							rssoutput += '<a href="' + feeds[i].link + '">' + feeds[i].title + '</a><br />';
+						}
+						document.getElementById("latest-news").innerHTML = rssoutput;
+						}
+					}
+				
+
 				
 				// integrate with the carousel previewer
 				var current = 0,
