@@ -2004,6 +2004,16 @@ h4 {
 .nbs-flexisel-container:hover.nbs-flexisel-nav-right {
   opacity: 0.6 !important;
 }
+#t3-header,
+#t3-mainnav {
+  display: none;
+}
+div.container.t3-sl.t3-sl-1 {
+  display: none;
+}
+#t3-content {
+  top: 110px;
+}
 #blogpost {
   background: #ffffff;
   text-align: center;
