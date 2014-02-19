@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> 
+<html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metas
+	================================================== -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, target-densitydpi=device-dpi"/>
+	<meta name="keywords" content="Bootstrap3,html5,css3,jquery,portfolio,creative,design,personal" />
+	<meta name="author" content="" />
+	
+	<!-- Page Title
+	================================================== -->
+	<title>VIF Program</title>
+	
+	<!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico"/>
+	
+	<!-- Google fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Scada:400,700' rel='stylesheet' type='text/css'>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
+		<link rel="stylesheet" type="text/css" href="css/vif.css" />
+		<link rel="stylesheet" type="text/css" href="css/vifprogram_corporate.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+    <!-- Script for browser specific CSS -->
+		<script src="js/css_browser_selector.js" type="text/javascript"></script>
+	</head>
+	<body >
+		<!-- pre loder -->
+		<div id="preloader">
+			<div id="status">&nbsp;</div><!-- /status -->
+		</div>
+		<!-- Navigation Bar -->
+		<div class="navbar navbar-fixed-top minified">
+			<div class="container">
+				<!-- mobile menu -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img class="logo" src="images/l_vif-logo.png" alt=""></a>
+				</div>
+				<!-- desktop menu -->
+				<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
+					<ul class="nav navbar-nav pull-right">
+						<li id="btn-home" class="active"><a href="#header">Home</a>
+							
+						</li>
+						<li id="btn-programs" class="">
+							<a href="#programs">Our Programs</a>
+							<nav class="sub" data-spy="affix" role="navigation" id="program-nav">
+								<ul class="nav navbar-nav navbar-collapse pull-right" >
+									<li><a href="#splash">Splash</a></li>
+									<li><a href="#passport">Passport</a></li>
+									<li><a href="#exchange">Culture Exchange Schools</a></li>
+									<li> <a href="#global">Global Gateway</a></li>
+									<li> <a href="#casestudies">Case Studies</a></li>					
+								</ul>
+							</nav>
+						</li>
+						<li id="btn-about" class=""><a href="#about">About</a>
+							<nav class="sub" data-spy="affix" role="navigation" id="about-nav">
+								<ul class="nav navbar-nav navbar-collapse pull-right" >
+									<li><a href="#history">History</a></li>
+									<li><a href="#values">Our Values</a></li>
+									<li><a href="#team">Meet the Team</a></li>
+									<li><a href="#jobs">Jobs at VIF</a></li>
+								</ul>
+							</nav>
+						</li>
+						<li id="btn-press" class=""><a href="#press">Press</a>
+							<nav class="sub" data-spy="affix" role="navigation" id="press-nav">
+								<ul class="nav navbar-nav navbar-collapse pull-right">
+									<li>
+										<a href="#blogpost">Our Blog</a>
+									</li>
+									<li>
+										<a href="#pressreleases">Press Releases</a>
+									</li>
+									
+									<li>
+										<a href="#contact-press">Contact Us</a>
+									</li>
+								</ul>
+							</nav>
+
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>				
+				

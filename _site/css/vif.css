@@ -52,7 +52,6 @@
 }
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
   line-height: 1.5em;
   height: 100%;
   width: 100%;
@@ -75,7 +74,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: BrandonPrinted-One;
+  font-family: BrandonPrinted-Two;
+  color: #000;
 }
 h1 {
   font-size: 36px;
@@ -89,12 +89,69 @@ h3 {
 }
 .script {
   font-family: ShimmerOT !important;
+  font-size: 3em;
   color: #545454;
   text-align: left;
   text-transform: none;
+  padding-top: 1em;
+}
+p.intro {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+p.follow {
+  line-height: 2;
 }
 .center-text {
   text-align: center;
+}
+.btn-contact {
+  font-family: BrandonPrinted-Two;
+  color: #aa272f;
+  background-color: transparent;
+  font-size: 1.5em;
+}
+.btn-contact .arrow {
+  font-family: BrandonPrinted-Extras;
+  font-size: 1em;
+}
+div.red-banner span {
+  background: transparent url('../images/red-banner-l.png') no-repeat 0 0;
+  display: block;
+  line-height: 22px;
+  padding: 1px 2px 10px 18px;
+}
+div.red-banner span h2 {
+  position: relative;
+  top: -8px;
+  color: #fff;
+}
+div.red-banner {
+  background: transparent url('../images/red-banner-r.png') no-repeat top right;
+  display: block;
+  float: left;
+  height: 53px;
+  margin-right: 6px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.caption {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+.img-backer {
+  background: url('../images/photo-backer.png') no-repeat;
+  padding: 25px;
+  background-size: cover;
+  text-align: center;
+}
+.img-backer img {
+  margin-left: 5px;
+  margin-top: -5px;
 }
 a {
   color: #717171;
@@ -296,6 +353,7 @@ p {
   margin-left: 5px;
 }
 .navbar .navbar-nav li a {
+  font-family: BrandonPrintedOne-Shadow;
   font-size: 14px;
   line-height: 20px;
   display: block;
@@ -389,6 +447,8 @@ p {
 }
 #my-nav {
   margin-right: -15px;
+  top: -24px;
+  position: relative;
 }
 #my-nav > ul > li > .sub {
   display: none !important;
@@ -415,10 +475,9 @@ p {
 #about-nav,
 #press-nav,
 #app-nav {
-  top: 115px;
-  right: 10px;
+  top: 74px;
+  right: 125px;
   z-index: 999;
-  display: none;
   position: fixed;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.7);
@@ -758,12 +817,22 @@ p {
 #exchange-slider ul li.slide ul.slidecontrols {
   margin: 0;
   padding: 0;
-  margin-top: 95px !important;
   position: absolute;
-  top: 50%;
-  width: 100%;
-  right: 0;
+  top: 33%;
+  width: 96%;
+  right: 2%;
   list-style-type: none;
+}
+#about-slider ul li.slide ul.slidecontrols .fa-chevron-left,
+#splash-slider ul li.slide ul.slidecontrols .fa-chevron-left,
+#passport-slider ul li.slide ul.slidecontrols .fa-chevron-left,
+#exchange-slider ul li.slide ul.slidecontrols .fa-chevron-left,
+#about-slider ul li.slide ul.slidecontrols .fa-chevron-right,
+#splash-slider ul li.slide ul.slidecontrols .fa-chevron-right,
+#passport-slider ul li.slide ul.slidecontrols .fa-chevron-right,
+#exchange-slider ul li.slide ul.slidecontrols .fa-chevron-right {
+  margin-left: 15px;
+  margin-top: 20%;
 }
 .about-slide-content,
 .splash-slide-content,
@@ -1115,14 +1184,38 @@ li.slide article p {
   color: #fff;
 }
 #casestudies {
-  background-color: #cccccc;
+  background: url('../images/case/balloon.png') #ece9e6;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #545454;
+}
+.case_bg {
+  background: url('../images/fresh_snow.png') repeat scroll left top rgba(0, 0, 0, 0);
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  width: 100%;
+  display: table;
+}
+.third {
+  width: 28%;
+  float: left;
+  margin-right: 10px;
+}
+.sidebar {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.thumb {
+  padding: 3px;
+  border: 1px solid #999;
 }
 #splash,
 #passport,
 #exchange,
-#global,
-#casestudies {
+#global {
   padding: 2em 0 40px;
 }
 #splash h1,
@@ -1139,7 +1232,7 @@ li.slide article p {
 #casestudies h1 {
   margin: 0;
   color: #545454;
-  font-size: 3.25em;
+  font-size: 4.25em;
   font-weight: 400;
   line-height: 70px;
   text-align: left;
@@ -1163,7 +1256,7 @@ li.slide article p {
 #exchange div.brain,
 #global div.brain,
 #casestudies div.brain {
-  background-image: url('/images/bilinguil-brain2.png');
+  background-image: url('../images/bilinguil-brain2.png');
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1175,7 +1268,7 @@ li.slide article p {
 #exchange div.exchange,
 #global div.exchange,
 #casestudies div.exchange {
-  background-image: url('/images/fpo-300rnd.png');
+  background-image: url('../images/fpo-300rnd.png');
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2281,8 +2374,7 @@ ul.slidecontrols li {
 }
 ul.slidecontrols li a {
   background: #ffffff;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-radius: 8px;
   display: block;
   height: 100%;
   width: 100%;
