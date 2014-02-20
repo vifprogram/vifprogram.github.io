@@ -101,45 +101,82 @@
 
                     </div>
                     <div class="row">
+                        <div class="col-md-8"><h2>The Bilinguil Brain</h2>
+                        <p>Splash language immersion programs provide a unique and powerful opportunity to strengthen children’s highest cognitive brain potentials through deliberate literacy development in two languages and authentic exposure to rich language experiences.</p></div>
+                    </div>
+                     
+                     <!-- brain row -->
+                    <div class="row">
                         <div class="col-md-6">
                             <span class="lg-quote">“</span>
                             <div class="center-text script" >When we're talking about a global economy, how better to prepare our kids than with the language to be able to communicate with other folks around the world?</div>
-                            <span class="caption">— Rockingham County, N.C.</span><br>
-                                <span class="caption">School District Superintendent Rodney Shotwell </span>
+                            <div class="caption">— Rockingham County, N.C.<br>
+                                School District Superintendent Rodney Shotwell </div>
                             <span class="lg-quote">”</span>
                         </div>
                         <div class="brain col-md-6 pull-right">
-                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Proven academic performance: Immersion students perform as well or better than non-immersion students on dtandardized tests in English." style="position: relative; background: red; border: red; outline:none; right: -32px; top: 49px; height: 3em; width: 3em; border-radius: 50px;"></button>
-                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Second Language Skills: More than in any other type of language learning model, immersion students achieve high proficiency in immersion language." style=" position: relative; background: red; border: red; outline:none; right: -97px; top: 173px; height: 3em; width: 3em; border-radius: 50px;"></botton>
-                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Enhanced Cognitive Skills: Immersion students typically develop greater cognitive flexibility, demonstrating increased focus and attendion skills, better memory and decision making, and superior problem solving skills as well as an enhanced understanding of their primary language." style=" position: relative; background: red; border: red; outline:none; top: 215px; right: 149px; height: 3em; width: 3em; border-radius: 50px;"></botton>
-
-
-
+                            <div id="brain-instructions">Click the gears to read more about the key brain functions where research shows that bilingual people have improved function.</div>
+                         <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-title="Proven academic performance" data-content="Immersion students perform as well or better than non-immersion students on dtandardized tests in English."    
+                        style="position: relative;
+                            background: transparent;
+                            border: none;
+                            outline: none;
+                            right: -213px;
+                            top: 23px;
+                            height: 3em;
+                            width: 3em;
+                            border-radius: 50px;"></button>
+                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-title="Second Language Skills" data-content="More than in any other type of language learning model, immersion students achieve high proficiency in immersion language." style=" 
+                            position: relative;
+                            background: transparent;
+                            border: none;
+                            outline: none;
+                            right: -244px;
+                            top: 127px;
+                            height: 4em;
+                            width: 4em;
+                            border-radius: 50px;"></botton>
+                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-title="Enhanced Gognitive Skills" data-content="Immersion students typically develop greater cognitive flexibility, demonstrating increased focus and attendion skills, better memory and decision making, and superior problem solving skills as well as an enhanced understanding of their primary language." 
+                                    style="position: relative;
+                                            background: transparent;
+                                            border: transparent;
+                                            outline: none;
+                                            top: 180px;
+                                            right: -104px;
+                                            height: 5em;
+                                            width: 5em;
+                                            border-radius: 50px;"></botton>
 
                         </div>
 </div>
+                     <!-- //end brain row -->
+                     
 					<div class="row">
+                        <div class="col-md-12 blue-border"></div>
 						<div class="col-md-4 promo">
-							<div class="pad">
+							
+                                <h3>Case Study<span class="long-arrow">,</span></h3>
 								<img class="img-responsive" src="images/fpo-promo3.png">
-								<h2>Case Study</h2>
+								
 								<p>Lorem ipsum...</p>
-							</div>
+							
 						</div>
 						<div class="col-md-4 promo">
-							<div class="pad">
+							 <h3>Video<span class="long-arrow">,</span></h3>
 								<img class="img-responsive" src="images/fpo-promo3.png">
-								<h2>Video</h2>
+								
 								<p>Lorem ipsum...</p>
-							</div>
+							
 						</div>
 						<div class="col-md-4 promo">
-							<div class="pad">
+							 <h3>See for yourself<span class="long-arrow">,</span></h3>
 								<img class="img-responsive" src="images/fpo-promo3.png">
-								<h2>Try the PD yourself</h2>
+								
 								<p>Lorem ipsum...</p>
-							</div>
+							
 						</div>
+                        
+                        <div class="col-md-12 blue-border"></div>
 					</div>
 					<div class="row">
 						<div class="col-md-4">

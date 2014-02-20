@@ -90,6 +90,8 @@ h3 {
 }
 .script {
   font-family: ShimmerOT !important;
+  font-weight: normal !important;
+  font-style: normal !important;
   font-size: 3em;
   color: #545454;
   text-align: left;
@@ -154,6 +156,11 @@ div.red-banner {
 .img-backer img {
   margin-left: 5px;
   margin-top: -5px;
+}
+.long-arrow {
+  font-family: BrandonPrinted-Extras;
+  font-weight: normal;
+  font-style: normal;
 }
 a {
   color: #717171;
@@ -584,20 +591,6 @@ p {
   width: 120px;
   height: 120px;
 }
-/*.flexslider{
-    background:transparent;
-    border:none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    .slides > li {
-    border-radius:4px;
-	-webkit-border-radius:4px;
-    display: none;
-    padding: 0px;
-    position: relative;
-    }
-}
-*/
 #aboutme {
   margin: 0;
   padding: 0;
@@ -1190,6 +1183,12 @@ li.slide article p {
   padding: 3px;
   border: 1px solid #999;
 }
+.blue-border {
+  height: 10px;
+  background: url('../images/blue-dot-border.png');
+  background-repeat: repeat-x;
+  margin-bottom: 1em;
+}
 #passport h1,
 #exchange h1,
 #global h1 {
@@ -1223,17 +1222,22 @@ li.slide article p {
 #casestudies h2 a {
   color: #fff;
 }
-#splash div.brain,
-#passport div.brain,
-#exchange div.brain,
-#global div.brain,
-#casestudies div.brain {
-  background-image: url('../images/bilinguil-brain2.png');
+#splash div.brain {
+  background-image: url('../images/splash/bilinguil-brain.png');
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
   height: 500px;
   width: 400px;
+}
+#splash div.brain #brain-instructions {
+  position: relative;
+  font-size: smaller;
+  font-style: italic;
+  width: 250px;
+  top: 107px;
+  left: 57px;
+  line-height: 1.5;
 }
 #splash div.exchange,
 #passport div.exchange,

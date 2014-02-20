@@ -7,7 +7,7 @@
 	<!-- Metas
 	================================================== -->
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-	<meta name="viewport" content="width=device-width, user-scalable=no, target-densitydpi=device-dpi"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<meta name="keywords" content="Bootstrap3,html5,css3,jquery,portfolio,creative,design,personal" />
 	<meta name="author" content="" />
 	
