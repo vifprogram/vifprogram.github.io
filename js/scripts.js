@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
 		var place = $(this).attr('href');
 		$('html, body').animate({
 			scrollTop: $(place).offset().top - 108
-			}, 1200, 'easeInOutCubic');
+			}, 500, 'easeInOutCubic');
 		pde(evt);
 	});
 
@@ -152,23 +152,6 @@ $(window).load(function() {
 	})(jQuery)
 //end	.
 
-//post slider initialization
-jQuery(document).ready(function($){$('#post-slider').carousel({slider:'.slider',slide:'.slide',addPagination:false,addNav:false,speed:800,nextSlide:'.post-next',prevSlide:'.post-prev'});});(jQuery);
-	
-//team slider initialization
-jQuery(document).ready(function($){$('#team-slider').carousel({slider:'.slider',slide:'.slide',addPagination:false,addNav:false,speed:800,nextSlide:'.team-next',prevSlide:'.team-prev'});});(jQuery);
-
-//splash slider initialization
-jQuery(document).ready(function($){$('#splash-slider').carousel({slider:'.slider',slide:'.slide',addPagination:false,addNav:false,speed:800,nextSlide:'.splash-next',prevSlide:'.splash-prev'});});(jQuery);
-
-//passport slider initialization
-jQuery(document).ready(function($){$('#passport-slider').carousel({slider:'.slider',slide:'.slide',addPagination:false,addNav:false,speed:800,nextSlide:'.passport-next',prevSlide:'.passport-prev'});});(jQuery);
-
-//exchange slider initialization
-jQuery(document).ready(function($){$('#exchange-slider').carousel({slider:'.slider',slide:'.slide',addPagination:false,addNav:false,speed:800,nextSlide:'.exchange-next',prevSlide:'.exchange-prev'});});(jQuery);
-
-//about slider initialization
-jQuery(document).ready(function($){$('#about-slider').carousel({slider:'.slider',slide:'.slide',addPagination:false,addNav:false,speed:800,nextSlide:'.about-next',prevSlide:'.about-prev'});});(jQuery);
 
 //brain popovers
 $('.brain').popover();

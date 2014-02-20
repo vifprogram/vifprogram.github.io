@@ -1,0 +1,33 @@
+/**
+ * @package		EasyBlog
+ * @copyright	Copyright (C) 2010 Stack Ideas Private Limited. All rights reserved.
+ * @license		GNU/GPL, see LICENSE.php
+ *
+ * EasyBlog is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+/*BLOG CALENDAR*/
+.blog-calendar{background:#eee;border:1px solid #ccc;border-bottom-color:#aaa;display:inline-block;float:left;position:relative;top:-2px;width:32px;padding:7px 5px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.blog-calendar + .blog-cap{margin-left:55px;}
+.blog-calendar b{display:block;text-align:center;text-transform:uppercase;font-family:Arial,sans-serif;line-height:1;text-shadow:0 1px 0 rgba(255,255,255,0.5);}
+.blog-calendar b.blog-calendar-month{font-size:11px;font-weight:100;color:#888;margin:0 0 3px;}
+.blog-calendar b.blog-calendar-day{font-size:19px;color:#555;}
+
+/*BLOG READ*/
+#ezblog-body .blog-read .blog-head{margin-top:15px;padding-top:20px;border-top:1px solid #ddd;}
+#ezblog-body .blog-read .blog-title{font-size:20px;margin:0 0 5px;}
+#ezblog-body .blog-read .blog-admin{top:-5px;}
+
+/*RESPONSIVE*/
+#eblog-wrapper.w320 #ezblog-body .blog-text img {
+	width: 100%;
+}
+
+#eblog-wrapper.w320 .blog-calendar + .blog-cap {
+    clear: both;
+    margin-left: 0;
+}

@@ -21,25 +21,24 @@
 	
 	<!-- Google fonts
 	================================================== -->
-	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Scada:400,700' rel='stylesheet' type='text/css'>
-		
+	
+		 <!-- Script for browser specific CSS -->
+		<script src="js/css_browser_selector.js" type="text/javascript"></script>
 		
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 		<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
 		<link rel="stylesheet" type="text/css" href="css/vif.css" />
 		<link rel="stylesheet" type="text/css" href="css/vifprogram_corporate.css" />
 		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
-    <!-- Script for browser specific CSS -->
-		<script src="js/css_browser_selector.js" type="text/javascript"></script>
+   
 	</head>
 	<body >
 		<!-- pre loder -->

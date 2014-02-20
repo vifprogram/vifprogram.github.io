@@ -78,89 +78,46 @@
 	
 		<!--begin Splash -->
 		<div id="splash">
-			<div class="container">	
-				<div class="row">
-					<div class="col-md-9 ">
-						<h2> Splash </h2>
-						<div id="splash-slider" >
-							<ul class="slider" id="splash-content">
-								<li class="slide">
-									<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#splash-content" class="splash-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#splash-content" class="splash-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 splash-slide-content"><p>Slide 1</p></div>
-												</article>
-												<!-- team social icon -->
-											</div>
-								    </div>
-								</li>
-								<li class="slide">
-									
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#splash-content" class="splash-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#splash-content" class="splash-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 splash-slide-content"><p>Slide 2</p></div>
-												</article>
-												<!-- team social icon -->
-											</div>
-										</div>
-									
-								</li>
-								<li class="slide">
-									
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#splash-content" class="splash-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#splash-content" class="splash-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 splash-slide-content"><p>Slide 3</p></div>
-												</article>
-												<!-- team social icon -->
-											</div>
-										</div>
-									
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="clear program col-md-3">
-						<p>Splash provides comprehensive, 'turnkey' support services to districts who want to bring the benefits of dual language programs to their communities. Join the 17 districts and 31 elementary schools that are implementing VIF's Splash immersion program to give their students remarkable opportunities to succes and compete.</p>
-						<a href="#contact-splash" class="btn btn-primary btn-lg">
-						<span class="fa fa-envelope fa-lg"></span> contact us
-						</a>
-					</div>
-					
-				</div>
-				
-				<div class="row">
-					<div class="col-md-4 col-md-offset-1">
-						<i class="fa fa-quote-left fa-2x pull-left"></i><br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non massa vitae risus fermentum ullamcorper. Phasellus risus urna, ornare in aliquam id, porttitor sit amet sapien. Nulla facilisi. Fusce et scelerisque lectus. Etiam placerat turpis in eros bibendum et pharetra ante sagittis. Vivamus venenatis, risus sed interdum bibendum, mauris sapien accumsan justo, sed tristique felis augue a urna. Pellentesque ac nisi vitae magna vehicula auctor tempor euismod arcu. Phasellus at orci sit amet risus vehicula blandit. Cras at libero sed nunc dictum pulvinar ut vel tellus. Vivamus semper augue nec velit suscipit bibendum.</p>
-						<i class="fa fa-quote-right fa-2x pull-right"></i>
-					</div>
-					<div class="brain col-md-7 col-md-offset-2 pull-left">
-						<button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Proven academic performance: Immersion students perform as well or better than non-immersion students on dtandardized tests in English." style="position: relative; background: red; border: red; outline:none; right: -32px; top: 49px; height: 3em; width: 3em; border-radius: 50px;"></button>
-						<button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Second Language Skills: More than in any other type of language learning model, immersion students achieve high proficiency in immersion language." style=" position: relative; background: red; border: red; outline:none; right: -97px; top: 173px; height: 3em; width: 3em; border-radius: 50px;"></botton>
-						<button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Enhanced Cognitive Skills: Immersion students typically develop greater cognitive flexibility, demonstrating increased focus and attendion skills, better memory and decision making, and superior problem solving skills as well as an enhanced understanding of their primary language." style=" position: relative; height: 3em; width: 3em; border-radius: 50px; background: red; border: red; outline:none; top: 215px; right: 149px;"></botton>
-					</div>
-				</div>
-				
+            <div class="splash_bg">
+			     <div class="container">	
+                    <div class="row">
+                        <div class="col-md-8 ">
+                            <h1 class="script">Splash Language Immersion</h1>
+                            <div id="splash-slider">
+                                <ul class="bxslider">
+                                  <li><img src="images/map.png" /></li>
+                                  <li><img src="images/splash2.png" /></li>
+                                  <li><img src="images/splash3.png" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear program col-md-4">
+                            <img width="209" class="img-responsive pad40" src="images/splash/splash-header.png"/>
+                            <p>Built on more than 20 years of dual language experience, Splash provides a comprehensive, turnkey framework for schools and districts to develop and maintain consistent, high-quality K-8 world language programs. VIF supports language immersion teachers with tools to promote academic achievement through enrichment rather than remediation, which </p>
+                            <a href="#contact-splash" class="btn btn-vif btn-lg">
+                            contact us
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="lg-quote">“</span>
+                            <div class="center-text script" >When we're talking about a global economy, how better to prepare our kids than with the language to be able to communicate with other folks around the world?</div>
+                            <span class="caption">— Rockingham County, N.C.</span><br>
+                                <span class="caption">School District Superintendent Rodney Shotwell </span>
+                            <span class="lg-quote">”</span>
+                        </div>
+                        <div class="brain col-md-6 pull-right">
+                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Proven academic performance: Immersion students perform as well or better than non-immersion students on dtandardized tests in English." style="position: relative; background: red; border: red; outline:none; right: -32px; top: 49px; height: 3em; width: 3em; border-radius: 50px;"></button>
+                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Second Language Skills: More than in any other type of language learning model, immersion students achieve high proficiency in immersion language." style=" position: relative; background: red; border: red; outline:none; right: -97px; top: 173px; height: 3em; width: 3em; border-radius: 50px;"></botton>
+                            <button type="button" class="brain btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Enhanced Cognitive Skills: Immersion students typically develop greater cognitive flexibility, demonstrating increased focus and attendion skills, better memory and decision making, and superior problem solving skills as well as an enhanced understanding of their primary language." style=" position: relative; background: red; border: red; outline:none; top: 215px; right: 149px; height: 3em; width: 3em; border-radius: 50px;"></botton>
+
+
+
+
+                        </div>
+</div>
 					<div class="row">
 						<div class="col-md-4 promo">
 							<div class="pad">
@@ -243,15 +200,19 @@
 								<textarea class="form-control" id="message" name="message" placeholder="Message" rows="10">
 								</textarea>
 								<br />
-								<button class="btn btn-primary pull-left" type="submit">Submit</button>
+								<button class="btn btn-vif pull-left" type="submit">Submit</button>
 							</form>
 						</div>
 						<div class="col-md-6">
 							<img src="images/fpo.png" width="450" height="450"/>
 						</div>
 					</div>	
-				
-			</div>	
+                    <div class="row">
+                        <div class="bottom-pad" class="col-md-12">
+                        </div>    
+                    </div>
+                </div>	
+            </div>
 		</div>			
 		<!-- //end Splash -->
 
@@ -261,59 +222,17 @@
 				<div class="row">
 					<div class="col-md-9">
 						<h2>Passport </h2>
-						<div id="passport-slider" >
-							<ul class="slider" id="passport-content">
-								<li class="slide">
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#passport-content" class="passport-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#passport-content" class="passport-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 passport-slide-content"><p>Slide 1</p></div>
-												</article>
-											</div>
-										</div>
-								    </li>
-								<li class="slide">
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#passport-content" class="passport-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#passport-content" class="passport-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 passport-slide-content"><p>Slide 2</p></div>
-												</article>
-											</div>
-										</div>
-								    </li>
-								<li class="slide">
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#passport-content" class="passport-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#passport-content" class="passport-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 passport-slide-content"><p>Slide 3</p></div>
-												</article>
-											</div>
-										</div>
-								    </li>
-							</ul>
-						</div>
+						 <div id="passport-slider">
+                            <ul class="bxslider">
+                              <li><img src="images/map.png" /></li>
+                              <li><img src="images/splash2.png" /></li>
+                              <li><img src="images/splash3.png" /></li>
+                            </ul>
+                        </div>
 					</div>
 					<div class="clear program col-md-3">
 						<p>passport provides comprehensive, 'turnkey' support services to districts who want to bring the benefits of dual language programs to their communities. Join the 17 districts and 31 elementary schools that are implementing VIF's passport immersion program to give their students remarkable opportunities to succes and compete.</p>
-						<button type="button" class="btn btn-primary btn-lg">
+						<button type="button" class="btn btn-vif btn-lg">
 						<span class="fa fa-envelope fa-lg"></span> contact us
 						</button>
 					</div>
@@ -425,7 +344,7 @@
 							<textarea class="form-control" id="message" name="message" placeholder="Message" rows="10">
 							</textarea>
 							<br />
-							<button class="btn btn-primary pull-left" type="submit">Submit</button>
+							<button class="btn btn-vif pull-left" type="submit">Submit</button>
 						</form>
 					</div>
 					<div class="col-md-6">
@@ -443,59 +362,16 @@
 				<div class="pad40 row">
 					<div class="col-md-9">
 						<h2>Cultural Exchange Schools</h2>
-						<div id="exchange-slider" >
-							<ul class="slider" id="exchange-content">
-								<li class="slide">
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#exchange-content" class="exchange-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#exchange-content" class="exchange-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 exchange-slide-content"><p>Slide 1</p></div>
-												</article>
-											</div>
-										</div>
-								    </li>
-								<li class="slide">
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#exchange-content" class="exchange-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#exchange-content" class="exchange-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 exchange-slide-content"><p>Slide 2</p></div>
-												</article>
-											</div>
-										</div>
-								    </li>
-								<li class="slide">
-										<div class="row">
-											<div class="col-md-12">
-												<article>
-												<!-- slide control-->
-												<ul class="slidecontrols">
-													<li><a href="#exchange-content" class="exchange-next"><i class="fa fa-chevron-right"></i></a></li>
-													<li><a href="#exchange-content" class="exchange-prev"><i class="fa fa-chevron-left"></i></a></li>
-												</ul>
-												<!-- slide content -->
-												<div class="col-md-10 col-md-offset-1 exchange-slide-content"><p>Slide 3</p></div>
-												</article>
-											</div>
-										</div>
-								    </li>
-							</ul>
-						</div>
-					</div>
+                        <div id="exchange-slider">
+                            <ul class="bxslider">
+                              <li><img src="images/map.png" /></li>
+                              <li><img src="images/splash2.png" /></li>
+                              <li><img src="images/splash3.png" /></li>
+                            </ul>
+                        </div>					</div>
 					<div class="clear program col-md-3">
 						<p>exchange provides comprehensive, 'turnkey' support services to districts who want to bring the benefits of dual language programs to their communities. Join the 17 districts and 31 elementary schools that are implementing VIF's exchange immersion program to give their students remarkable opportunities to succes and compete.</p>
-						<button type="button" class="btn btn-primary btn-lg">
+						<button type="button" class="btn btn-vif btn-lg">
 						<span class="fa fa-envelope fa-lg"></span> contact us
 						</button>
 					</div>
@@ -595,7 +471,7 @@
 							<textarea class="form-control" id="message" name="message" placeholder="Message" rows="10">
 							</textarea>
 							<br />
-							<button class="btn btn-primary pull-left" type="submit">Submit</button>
+							<button class="btn btn-vif pull-left" type="submit">Submit</button>
 						</form>
 					</div>
 					<div class="col-md-6">
@@ -615,7 +491,7 @@
 					</div>
 					<div class="clear program col-md-3">
 						<p>global gateway provides comprehensive, 'turnkey' support services to districts who want to bring the benefits of dual language programs to their communities. Join the 17 districts and 31 elementary schools that are implementing VIF's exchange immersion program to give their students remarkable opportunities to succes and compete.</p>
-						<button type="button" class="btn btn-primary btn-lg">
+						<button type="button" class="btn btn-vif btn-lg">
 						<span class="fa fa-envelope fa-lg"></span> contact us
 						</button>
 					</div>
@@ -712,7 +588,7 @@
 							
 							<textarea class="form-control" id="message" name="message" placeholder="Message" rows="10"></textarea>
 							<br />
-							<button class="btn btn-primary pull-left" type="submit">Submit</button>							
+							<button class="btn btn-vif pull-left" type="submit">Submit</button>							
 							</form>
 					</div>
 					<div class="col-md-6">
@@ -763,7 +639,7 @@
     </div>
                     <div class="row">
                         <div class="col-md-4">
-                            <p class="follow">Carolina Forest’s commitment to international education is demonstrated through a holistic approach in which Cultural Exchange teachers — representing England, South Africa, Australia, Canada, Jamaica and the Philippines — complement the school’s offerings. At each grade level, international teachers collaborate with their colleagues to integrate global aspects with common core and essential standards so that standard curriculums are taught through a global lens. In addition, all Carolina Forest teachers have access to VIF’s professional development tools which support effective integration of global content into core instruction.
+                            <p>Carolina Forest’s commitment to international education is demonstrated through a holistic approach in which Cultural Exchange teachers — representing England, South Africa, Australia, Canada, Jamaica and the Philippines — complement the school’s offerings. At each grade level, international teachers collaborate with their colleagues to integrate global aspects with common core and essential standards so that standard curriculums are taught through a global lens. In addition, all Carolina Forest teachers have access to VIF’s professional development tools which support effective integration of global content into core instruction.
                             </p>
                         </div>
                         <div class="col-md-4">
@@ -774,9 +650,9 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h2>Building Global Citizenry</h2>
-                            <p class="follow">
+                            <p>
                                 The Carolina Forest community also builds global citizenry through international partnerships with schools in other countries and through the use of technological tools to bring the world closer to students. Carolina Forest’s partnership with a school in San Pedro, Belize provides students from both schools with opportunities to communicate as pen pals and to visit and learn with one another through Skype. The partnership also allows teachers from the two schools to collaborate on joint lesson plans for their classes.</p>
-                                <p class="follow">
+                                <p>
 
                                 At Carolina Forest, being a global school means preparing teachers and students to competently and successfully engage in local, national and international contexts. Educators and parents of students at Carolina Forest believe that their commitment to global learning raises expectations of students and that, as a result, students consistently meet the standards set for them through their interactions with globally-focused content. Teachers and administrators feel they are fostering students who are better thinkers and communicators. And the school’s families, 50-60 percent of which are military families, are extremely supportive of a curriculum that is preparing students for success in an interconnected world. 
 
@@ -792,20 +668,20 @@
     </div>
                     <div class="row">
 						<div class="col-md-2 col-sm-4 col-xs-6">
-							<img src="images/fpo-2col.png"/>
-                            <p class="caption">Caption 1</p>
+							<img src="images/pdf-icon.png"/>
+                            <p class="caption">May 2012 UNC Study Data</p>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6">
-							<img src="images/fpo-2col.png"/>
-                              <p class="caption">Caption 2</p>
+							<img src="images/link-icon.png"/>
+                              <p class="caption">October 29, 2013 Fayetteville Observer</p>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6">
-							<img src="images/fpo-2col.png"/>
-                              <p class="caption">Caption 3</p>
+							<img src="images/link-icon.png"/>
+                              <p class="caption">Gray’s Creek global school web site</p>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-6">
-							<img src="images/fpo-2col.png"/>
-                              <p class="caption">Caption 4</p>
+							<img src="images/video-icon.png"/>
+                              <p class="caption">What does a global school look like?</p>
 						</div>
 						
 					</div>
@@ -833,13 +709,15 @@
 
                                 <textarea class="form-control" id="message" name="message" placeholder="Message" rows="10"></textarea>
                                 <br />
-                                <button class="btn btn-primary pull-left" type="submit">Submit</button>							
+                                <button class="btn btn-vif pull-left" type="submit">Submit</button>							
                                 </form>
                         </div>
-                        <div class="col-md-6">
-                            <img src="images/fpo.png" width="450" height="450"/>
-                        </div>
-    </div>
+                       
+                    </div>
+                    <div class="row">
+                        <div class="bottom-pad" class="col-md-12">
+                        </div>    
+                    </div>
 			 </div>
             </div>
 	   </div>
@@ -857,65 +735,13 @@
 					<h1 >About VIF</h1>
 				</div>
 			</div>
-		
-		  <div id="about-slider" >
-			<ul class="slider" id="about-content">
-				<li class="slide">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<article>
-								<!-- slide control-->
-								<ul class="slidecontrols">
-									<li><a href="#about-content" class="about-next"><i class="fa fa-chevron-right"></i></a></li>
-									<li><a href="#about-content" class="about-prev"><i class="fa fa-chevron-left"></i></a></li>
-								</ul>
-								<!-- slide content -->
-								<div class="col-md-10 col-md-offset-1 about-slide-content"><p>Slide 1</p></div>
-								</article>
-								<!-- team social icon -->
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="slide">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<article>
-								<!-- slide control-->
-								<ul class="slidecontrols">
-									<li><a href="#about-content" class="about-next"><i class="fa fa-chevron-right"></i></a></li>
-									<li><a href="#about-content" class="about-prev"><i class="fa fa-chevron-left"></i></a></li>
-								</ul>
-								<!-- slide content -->
-								<div class="col-md-10 col-md-offset-1 about-slide-content"><p>Slide 2</p></div>
-								</article>
-								<!-- team social icon -->
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="slide">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<article>
-								<!-- slide control-->
-								<ul class="slidecontrols">
-									<li><a href="#about-content" class="about-next"><i class="fa fa-chevron-right"></i></a></li>
-									<li><a href="#about-content" class="about-prev"><i class="fa fa-chevron-left"></i></a></li>
-								</ul>
-								<!-- slide content -->
-								<div class="col-md-10 col-md-offset-1 about-slide-content"><p>Slide 3</p></div>
-								</article>
-								<!-- team social icon -->
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
+		    <div id="about-slider">
+            <ul class="bxslider">
+              <li><div class="slide"><p>Slide 1</p></div></li>
+              <li><div class="slide"><p>Slide 2</p></div></li>
+              <li><div class="slide"><p>Slide 3</p></div></li>
+            </ul>
+            </div>
         </div>
 		<!--History Section -->
 		<div id="history">
@@ -1008,8 +834,8 @@
 					<ul id="portfolio-grid" class="row portfolio-row">
 						<li class="portfolio-mix col-xs-6 col-md-4">
 							<!-- Work item -->
-							<figure class="portfolio-item">
-								<a class="folio">
+							<figure class="portfolio-item" id="item1">
+								<a href="#item1" class="folio">
 								<img class="img-responsive" src="images/values6.jpg" alt="">
 								<div class="caption-bg"></div>
 								<div class="meta">
@@ -1023,8 +849,8 @@
 						</li>
 						<li class="portfolio-mix col-xs-6 col-md-4">
 							<!-- Work item -->
-							<figure class="portfolio-item">
-								<a class="folio">
+							<figure class="portfolio-item" id="item2">
+								<a href="#item2" class="folio">
 								<img class="img-responsive" src="images/values5.jpg" alt="">
 								<div class="caption-bg"></div>
 								<div class="meta">
@@ -1038,8 +864,8 @@
 						</li>
 						<li class="portfolio-mix col-xs-6 col-md-4">
 							<!-- Work item -->
-							<figure class="portfolio-item">
-								<a class="folio">
+							<figure class="portfolio-item" id="item3">
+								<a href="#item3"  class="folio">
 								<img class="img-responsive" src="images/values4.jpg" alt="">
 								<div class="caption-bg"></div>
 								<div class="meta">
@@ -1053,8 +879,8 @@
 						</li>
 						<li class="portfolio-mix col-xs-6 col-md-4">
 							<!-- Work item -->
-							<figure class="portfolio-item">
-								<a class="folio">
+							<figure class="portfolio-item" id="item4">
+								<a  href="#item4" class="folio">
 								<img class="img-responsive" src="images/values3.jpg" alt="">
 								<div class="caption-bg"></div>
 								<div class="meta">
@@ -1068,8 +894,8 @@
 						</li>
 						<li class="portfolio-mix col-xs-6 col-md-4">
 							<!-- Work item -->
-							<figure class="portfolio-item">
-								<a class="folio">
+							<figure class="portfolio-item" id="item5">
+								<a href="#item5" class="folio">
 								<img class="img-responsive" src="images/values2.jpg" alt="">
 								<div class="caption-bg"></div>
 								<div class="meta">
@@ -1083,8 +909,8 @@
 						</li>
 						<li class="portfolio-mix col-xs-6 col-md-4">
 							<!-- Work item -->
-							<figure class="portfolio-item">
-								<a class="folio">
+							<figure class="portfolio-item" id="item6">
+								<a href="#item6" class="folio">
 								<img class="img-responsive" src="images/values1.jpg" alt="">
 								<div class="caption-bg"></div>
 								<div class="meta">
@@ -1170,14 +996,13 @@
 		<div id="blogpost">
 			<h1>~  Latest posts ~</h1>
 			<h2>What we've written</h2>
-			<div id="post-slider">
-				<!-- Post slider control -->
+			<!--<div id="post-slider">
+				
 				<ul class="slidecontrols">
 					<li><a href="#post-content" class="post-next"><i class="fa fa-chevron-right"></i></a></li>
 					<li><a href="#post-content" class="post-prev"><i class="fa fa-chevron-left"></i></a></li>
 				</ul>
-				<!-- End post slider control -->
-				<!-- Post slider -->
+				
 				<ul class="slider" id="post-content">
 					{% for post in site.posts %}
 					<li class="slide">
@@ -1206,8 +1031,9 @@
 						<p><a href="{{ post.url }}" class="btn btn-outline-white btn-big">Read blog post</a></p>
 					</li>  {% endfor %}
 				</ul>
-				<!-- End Post slider -->
-			</div>			
+				
+			</div>	-->
+<div class="center-text"><a href="blog/">All Posts</a></div>
 		</div>
 		
 	</section>

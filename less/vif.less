@@ -54,7 +54,7 @@
 
 body {
     font-family: @font-family-serif;
-    line-height: 1.5em;
+    line-height:@line-height-base;
     height: 100%;
     width: 100%;
     margin: 0px auto;
@@ -70,9 +70,7 @@ body {
 .iphone body, .ipad body{
  width:auto;
 }
-img {
-    width: 100%;
-}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: @headings-font-family;
     color: #000;
@@ -87,7 +85,6 @@ h2 {
 h3 {
     font-size: 24px;
 }
-
 .script{
         font-family: ShimmerOT !important;
         font-size: 3em;
@@ -95,14 +92,15 @@ h3 {
         text-align: left;
         text-transform: none;   
         padding-top:1em;
-    }
+}
+.form-control{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
 p.intro{
     font-size:1.4em;
     line-height:1.5;
 }
-p.follow{
-    line-height:2;
-}
+
 .center-text {
     text-align: center;
 }
@@ -144,6 +142,7 @@ margin-top:20px;
 
 .caption{
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    line-height:1.25;
 }
 .img-backer{
     background: url('../images/photo-backer.png') no-repeat;
@@ -167,17 +166,21 @@ a {
 a:hover {
     text-decoration: none;
     color: #3e3e3e;
+  
 }
 p {
     text-align: left;
 }
-.btn {
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-}
-.btn-primary {
-    background-color: @vif-teal;
-    border-color: #005c78;
+
+.btn-vif {
+    color: #fff;
+    font-family: BrandonPrinted-One;
+    text-transform: uppercase;
+    background: #002147;
+    border-radius: 0px;
+    padding: 10px 40px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
 }
 .btn-outline-white {
     border: 2px solid #fff;
@@ -312,6 +315,8 @@ p {
     background-color: #dfe1e2;
     padding-top: 2em;
     padding-bottom: 2em;
+    line-height:1.75;
+    
     p {
         margin: 0;
     }
@@ -366,16 +371,11 @@ p {
                 outline: none;
                 font-weight: 600;
                 text-transform: uppercase;
-                -webkit-border-radius: @border-radius-base;
-                border-radius: @border-radius-base;
-                -moz-background-clip: padding;
-                -webkit-background-clip: padding-box;
-                background-clip: padding-box;
             }
             a:hover {
-                background-color: @vif-teal;
+               text-decoration: underline;
                 outline: none;
-                color: #fff;
+                color: @vif-teal;
             }
             a:focus {
                 background-color: transparent;
@@ -383,28 +383,22 @@ p {
             }
         }
         li:hover {
+            /*
             background-color: @vif-teal;
             -webkit-border-radius: @border-radius-base;
             border-radius: @border-radius-base;
             -moz-background-clip: padding;
             -webkit-background-clip: padding-box;
             background-clip: padding-box;
+            */
             a {
-                color: #fff;
+                color: @vif-teal;
             }
         }
         .active {
-            background-color: @vif-teal;
-            color: #fff;
-            -webkit-border-radius: @border-radius-base;
-            border-radius: @border-radius-base;
-            -moz-background-clip: padding;
-            -webkit-background-clip: padding-box;
-            background-clip: padding-box;
-            -webkit-transition: all 0.2s ease-out;
-            -moz-transition: all 0.2s ease-out;
-            -o-transition: all 0.2s ease-out;
-            transition: all 0.2s ease-out;
+         
+            color: @vif-teal;
+       
         }
     }
     .navbar-brand {
@@ -454,12 +448,13 @@ p {
             color: #000;
         }
         & > a:hover {
-            background-color: rgba(200, 200, 200, 0.4);
+           background-color:transparent;
         }
     }
 }
+
 #my-nav {
-    margin-right: -15px;
+    margin-right: -25px;
     top:-24px;
     position:relative;
     & > ul {
@@ -471,12 +466,19 @@ p {
         & > li.active {
             & > .sub {
                 display: block !important;
+                ul li a{
+                    text-decoration:none;
+                }
             }
         }
     }
 }
+.chrome #my-nav{
+    margin-right:-53px;
+}
 .navbar .navbar-nav .active a,.navbar .navbar-nav .active a:hover {
-    color: #fff;
+    color: @vif-teal;
+    text-decoration:underline;
 }
 .navbar-collapse {
     max-height: 400px;
@@ -491,32 +493,33 @@ p {
 }
 #program-nav,#about-nav,#press-nav,#app-nav {
     top: 74px;
-    right: 125px;
+    right: 20px;
     z-index: 999;
-    //right: -999px;
     position: fixed;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.7);
-}
-#program-nav ul,#about-nav ul,#press-nav ul,#app-nav ul {
+    ul{
     padding-right: 5px;
-}
-#program-nav ul li,#about-nav ul li,#press-nav ul li,#app-nav ul li {
+    li{
     margin-top: -15px;
-    margin-bottom: -10px;
-}
-#program-nav ul li a,#about-nav ul li a,#press-nav ul li a,#app-nav ul li a {
+    margin-bottom: -10px; 
+    
+    a{
     color: #444;
     font-size: 12px;
     text-transform: none;
-    padding: 6px;
+    padding: 6px;        
+    }
+ }
+ li.active{
+     a{
+         color:@vif-teal;
+         text-decoration:underline !important;
+     }
+ }
 }
-#program-nav ul li.active,#about-nav ul li.active,#press-nav ul li.active,#app-nav ul li.active {
-    border-radius: 0px;
 }
-#program-nav ul li.active &>a,#about-nav ul li.active &>a,#press-nav ul li.active &>a,#app-nav ul li.active &>a {
-    color: #fff;
-}
+
 #header {
     background-image: url("../images/pencils.jpg");
     background-position: center top;
@@ -595,6 +598,21 @@ p {
     width: 120px;
     height: 120px;
 }
+/*.flexslider{
+    background:transparent;
+    border:none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    .slides > li {
+    border-radius:4px;
+	-webkit-border-radius:4px;
+    display: none;
+    padding: 0px;
+    position: relative;
+    }
+}
+*/
+
 #aboutme {
     margin: 0;
     padding: 0;
@@ -798,44 +816,20 @@ p {
         font-weight: lighter;
     }
 }
-#about-slider ul,#splash-slider ul,#passport-slider ul,#exchange-slider ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-}
-#about-slider ul li.slide,#splash-slider ul li.slide,#passport-slider ul li.slide,#exchange-slider ul li.slide {
-    margin: 0px;
-    padding: 0;
-}
-#about-slider ul li.slide article,#splash-slider ul li.slide article,#passport-slider ul li.slide article,#exchange-slider ul li.slide article {
-    padding: 0;
-    margin-bottom: 0;
-}
-#about-slider ul li.slide ul.slidecontrols,#splash-slider ul li.slide ul.slidecontrols,#passport-slider ul li.slide ul.slidecontrols,#exchange-slider ul li.slide ul.slidecontrols {
-    margin: 0;
-    padding: 0;
-   // margin-top: 95px !important;
-    position: absolute;
-    top: 33%;
-    width: 96%;
-    right: 2%;
-    list-style-type: none;
-   .fa-chevron-left, .fa-chevron-right{
-        margin-left:15px;
-        margin-top:20%;
+#about-slider{
+    .bx-viewport[style]{
+        height:600px !important;
+        background: #ccc;
+        padding-top:30%;
+        background-image: url('../images/blank.png');
+        background-size: 100% 600px;
+        background-repeat: no-repeat;
+       ul li .slide p{ 
+           text-align:center;
+       }
     }
 }
-.about-slide-content,.splash-slide-content,.passport-slide-content,.exchange-slide-content {
-    background: @fpo;
-    height: 350px;
-    //margin-left:4.5em;
-    background-clip: content-box;
-}
-.about-slide-content p,.splash-slide-content p,.passport-slide-content p,.exchange-slide-content p {
-    position: absolute;
-    top: 45%;
-    left: 40%;
-}
+
 .picture {
     background: url("../images/Banner_american.jpg") no-repeat scroll 50% 0 @body-bg;
     height: 15em;
@@ -1164,8 +1158,25 @@ li.slide {
     }
 }
 #splash {
-    background-color: @vif-green;
-    color: #fff;
+     background:url('../images/splash/hoffman_@2X.png') repeat @vif-beige;  
+     background-attachment:fixed;
+    color: @vif-gray;
+    
+    div.center-text.script{
+        line-height:1 !important;
+        padding-top:0px;
+        top: -1.5em;
+        margin-bottom:-1em;
+        position:relative;
+    }
+}
+.lg-quote{
+    font-family:BrandonPrinted-One;
+    font-size:78px;
+    margin-left:50%;
+    ~ .caption{
+        text-align:center;
+    }
 }
 #passport {
     background-color: @vif-pink;
@@ -1180,13 +1191,13 @@ li.slide {
     color: #fff;
 }
 #casestudies {
-     background:url('../images/case/balloon.png') #ECE9E6;
+     background:url('../images/case/balloon.png') @vif-beige;
     background-position: bottom right;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     color: @vif-gray;
 }
- .case_bg{    
+ .case_bg, .splash_bg{    
     background: url('../images/fresh_snow.png') repeat scroll left top rgba(0, 0, 0, 0); 
       height:100%;
       margin-top:0px;
@@ -1204,14 +1215,15 @@ li.slide {
     margin-top:2em;
     margin-bottom:2em;
 }
+.bottom-pad{
+    height:40px;
+}
 .thumb{
     padding: 3px;
     border: 1px solid #999;
 }
-#splash,#passport,#exchange,#global {
-    padding: 2em 0 40px;
-}
-#splash h1,#passport h1,#exchange h1,#global h1{
+
+#passport h1,#exchange h1,#global h1{
     margin: 0;
     color: #fff;
     font-size: 3.25em;
@@ -1219,13 +1231,16 @@ li.slide {
     line-height: 70px;
     text-transform: uppercase;
 }
-#casestudies h1 {
+#casestudies, #splash{
+    h1 {
     margin: 0;
     color: @vif-gray;
     font-size: 4.25em;
     font-weight: 400;
     line-height: 70px;
     text-align:left;
+    }
+   
 }
 #splash h2,#passport h2,#exchange h2,#global h2,#casestudies h2 {
     text-align: left;
@@ -1268,7 +1283,7 @@ img.splash {
     height: 250px;
 }
 .program {
-    margin-top: 7em;
+    margin-top: 10em;
     position: relative;
     p {
         text-align: left;
@@ -2080,7 +2095,7 @@ h4 {
     opacity: 0.6 !important;
 }
 //joomla blog hide header
-#t3-header, #t3-mainnav{
+#t3-header, #t3-mainnav, #t3-footer{
     display:none;
 }
 div.container.t3-sl.t3-sl-1{
@@ -2273,7 +2288,7 @@ div.container.t3-sl.t3-sl-1{
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
 }
-.social img,.navbar .navbar-nav .active,.navbar .navbar-nav li a:hover,.timeline li:after,.ps-container .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x,#services,#services .btn-outline-white:hover,#values .cat-list .active,#values .btn-outline-white:hover,.da-dots span.da-dots-current:after,#blogpost .btn-outline-white:hover,#contact,.item-title,.popup-nav-top,.portfolio-popup .btn-outline-white:hover,.btn-black:hover {
+.social img,.timeline li:after,.ps-container .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x,#services,#services .btn-outline-white:hover,#values .cat-list .active,#values .btn-outline-white:hover,.da-dots span.da-dots-current:after,#blogpost .btn-outline-white:hover,#contact,.item-title,.popup-nav-top,.portfolio-popup .btn-outline-white:hover,.btn-black:hover {
     background: @vif-teal;
 }
 .statistics h1.big:hover,.statistics h1.big:hover span.desc,#process-slider .step,#team h3:hover,#services .service-icon i,#services .btn-outline-white,#portfolio .btn-outline-white,#blogpost ul li.slide hgroup h4 span a,#blogpost ul li.slide hgroup h1:hover,#blogpost .btn-outline-white,#contact .icon,#contact form button[type="submit"]:hover,.portfolio-popup .btn-outline-white,#blogpost ul li.slide article h4 span a,#blogpost ul li.slide article h1:hover,.scrolltotop:hover {

@@ -36,7 +36,7 @@
                                     <a href="/news.html">News</a>
                                 </p>
                                 <p>
-                                    <a href="/categories.html">Blog</a>
+                                    <a href="/blog/">Blog</a>
                                 </p>
 
                             </div>
@@ -98,7 +98,8 @@
 			<script type="text/javascript" src="js/imagesloaded.js"></script>
 			<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
 			<script type="text/javascript" src="js/parallaxInit.js"></script>
-			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+			<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+            
 			<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 			<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
 			<script type="text/javascript" src="js/carousel-slider.js"></script>
@@ -109,11 +110,21 @@
 			<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 			<script type="text/javascript" src="js/scripts.js"></script>
 			<script>
+               
+
+                
 				jQuery(document).ready(function() {
 					'use strict';				
 						
 						});
-				// integrate with the carousel previewer
+                
+                $('.bxslider').bxSlider({
+                      infiniteLoop: true,
+                      hideControlOnEnd: false,
+                        captions: true
+                    });
+                                    
+                // integrate with the carousel previewer
 				var current = 0,
 					$preview = $( '#preview' ),
 					$carouselEl = $( '#carousel' ),
@@ -170,7 +181,15 @@
 					jQuery(window).load(function(){
 						$(".sub").hide();
 					    jQuery('body').scrollspy('refresh');
-
+                        
+                        /*$('.flexslider').flexslider({
+                            slideshow: false,
+                            directionNav: true, 
+                            animation : 'slide',
+                            useCSS: true,
+                            touch: true,
+                            startAt: 1
+                        });*/
 
 					  });
 			</script>

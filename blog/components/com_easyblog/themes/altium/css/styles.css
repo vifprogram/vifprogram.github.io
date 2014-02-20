@@ -1,0 +1,125 @@
+/**
+ * @package		EasyBlog
+ * @copyright	Copyright (C) 2010 Stack Ideas Private Limited. All rights reserved.
+ * @license		GNU/GPL, see LICENSE.php
+ *
+ * EasyBlog is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+a.avatar{background:none!important;}
+/*MENU*/
+#ezblog-head{margin-bottom:15px;}
+
+/*BODY*/
+#ezblog-body img.avatar{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+#ezblog-body .featured-slider{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+#ezblog-body .blog-admin{top:-3px;}
+#ezblog-body .blog-head {border-bottom:1px solid #ccc;margin:-15px -15px 15px;padding:15px;line-height:20px;position:relative;
+    border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;-webkit-border-radius:2px 2px 0 0;background:#fff}
+#ezblog-body .blog-post,
+#ezblog-body .blog-read{padding:15px;border:1px solid #cacaca;border-bottom-color:#aaa;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+#ezblog-body .blog-read{border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;-webkit-border-radius:2px 2px 0 0;}
+#ezblog-body .blog-post{margin-top:20px;}
+#ezblog-body .blog-readmore{float:right;display:block;text-indent:-9999px;width:30px;height:30px;background:url(../images/read-more.png)!important;}
+#ezblog-body .blog-post .blog-meta-bottom img.avatar{width:30px;height:30px;}
+#ezblog-body .blog-post .blog-meta-bottom .isBlogger img.avatar{width:20px;height:20px;}
+#ezblog-body .blog-post .blog-meta-bottom > div > span{position:relative;top:8px;font-size:11px;}
+#ezblog-body .blog-activity{border-bottom:1px solid #ccc;margin:-15px -15px 15px;padding:13px 15px 13px 15px;height:20px;line-height:20px;position:relative;
+    border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;-webkit-border-radius:2px 2px 0 0;}
+#xezblog-body .blog-activity{background:red}
+#ezblog-body .blog-post .blog-meta,
+#ezblog-body .blog-read .blog-meta {border-bottom:1px solid #ccc;margin:-15px -15px 15px;padding:13px 15px;height:20px;line-height:20px;position:relative;font-size:11px;background-position:15px center!important;
+    border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;-webkit-border-radius:2px 2px 0 0}
+#ezblog-body .profile-item .blog-meta {border-bottom:0;margin:5px 0 0 ;padding:0;line-height:20px;position:relative;
+    border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;-webkit-border-radius:2px 2px 0 0}
+#ezblog-body .profile-body .post-list li + li{padding-top:20px;margin-top:20px;}
+
+#ezblog-body .blog-meta{background-position: 10px 16px;}
+#ezblog-body .blog-meta.fsm span{font-weight: 100 !important}
+#ezblog-body .micro-video .blog-meta,
+#ezblog-body .micro-photo .blog-meta,
+#ezblog-body .micro-link .blog-meta,
+#ezblog-body .micro-quote .blog-meta {background-position: 10px 14px}
+#xezblog-body .blog-activity span.clock {background:url(../images/clock.png) 0px 0 no-repeat ;height:20px;padding: 0 0 0 16px;}
+
+/*READ*/
+#ezblog-body .blog-read h1 {color:#555;}
+#ezblog-body .blog-meta-bottom {border-top:1px solid #ccc;background:#f5f5f5;padding:15px;margin:15px -15px -15px;}
+#ezblog-body .blog-read .blog-meta li a{display: inline-block;}
+#ezblog-body .blog-read .blog-meta li{line-height:1.2;text-transform:capitalize;display:block;position:relative;top:0;padding:0 0 0 10px}
+#ezblog-body .blog-read .blog-meta li + li{border-left:1px dotted #aaa;margin:0 0 0 9px}
+#ezblog-body .blog-avatar {margin-right:10px;}
+
+#ezblog-body .blog-read .blog-navi{border:1px solid #ccc;display:inline-block;height:auto;margin:0;padding:0;background:#fff;top:10px;right:10px;position:absolute;}
+#ezblog-body .blog-read .blog-navi li {width:auto;height:auto;line-height:auto;border-right:0;display:block;padding:0;margin:0;top:0;}
+#ezblog-body .blog-read .blog-navi li a,
+#ezblog-body .blog-read .blog-navi li + li a{margin:0;padding:5px!important;border-left:0;display:block;text-indent:-99999px;text-align:left;height:22px;line-height:22px;}
+#ezblog-body .blog-read .blog-navi li + li {margin:0px;border-left:1px solid #ddd}
+#ezblog-body .blog-read .blog-navi .entry-prev a{display:block;background: url(../images/arrow-left.png) center no-repeat!important;width:22px;height:22px;padding:0;margin:0;}
+#ezblog-body .blog-read .blog-navi .entry-next  a{display:block;width:22px;background: url(../images/arrow-right.png) center no-repeat!important}
+
+
+
+#ezblog-body .tab_button,
+#ezblog-body .tab_container{border:1px solid #cacaca;border-top:0;background:#f5f5f5;padding:0 15px;}
+#ezblog-body .tab_button a.ico{margin-left:0;}
+#ezblog-body .tab_container{margin:0 0 15px;border-bottom-color:#aaa;border-radius:0 0 2px 2px;-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px;}
+#ezblog-body .tab_container > div{padding:15px 0;}
+#ezblog-body .blog-section{border-top:0;}
+#ezblog-body .blog-section .section-title{background:#333;color:#aaa;font-weight:normal;font-family:inherit;font-size:11px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;height:35px;line-height:35px;padding:0 15px 0 18px;margin:0 0 15px;}
+#ezblog-body .blog-section .section-title.eblog_loader span {margin-left:4px;}
+#ezblog-body .blog-section .section-title.eblog_loader {background:#333 url(../../../assets/images/loader.gif) no-repeat 10px 12px}
+
+#ezblog-body .blog-brief{border-top:1px solid #ccc;padding:15px;margin:15px -15px -15px;position:relative;border-bottom:0;clear:both;background:#f5f5f5;}
+#ezblog-body .blog-option{height:38px}
+#ezblog-body .blog-option > ul{display:block;}
+#ezblog-body .blog-option > ul > li{position:relative;top:10px;}
+
+#ezblog-body .blog-read .blog-rating {clear:both}
+#ezblog-body .blog-read .blog-taglist {margin:20px 0 0;clear:both}
+#ezblog-body .blog-read .facebook-likes {display: block;margin:30px 0 0}
+
+
+/*FONTsize*/
+#ezblog-body .blog-meta .font-switcher {display: inline-block;margin-left:10px;float:right}
+#ezblog-body .blog-meta .font-switcher a{text-indent:-9999px;height:12px; position: relative;top:2px;display: inline-block;}
+#ezblog-body .blog-meta .font-switcher a#fontLarge{color:#095197;background:url(../images/font-size.png) 0 0 no-repeat;padding-left:12px}
+#ezblog-body .blog-meta .font-switcher a#fontSmall{color:#095197;background:url(../images/font-size.png) 0 -12px no-repeat;padding-left:12px;}
+
+
+/*PROFILE*/
+#ezblog-body .profile-item{border:0;padding:0;}
+#ezblog-body .profile-head{border:1px solid #cacaca;border-bottom-color:#aaa;padding:15px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;background:#f5f5f5}
+#ezblog-body .profile-body{margin-top:0;border-top:0;}
+
+/*MISC*/
+#ezblog-label{display:none!important;}
+#ezblog-label > span{font-size:11px;}
+#ezblog-body .post-admin-menu{right:10px;top:10px;}
+#ezblog-body .post-admin-menu ul{width:auto;}
+#ezblog-body .post-admin-menu li a{font:11px/25px 'Lucida Grande',Tahoma,sans-serif;white-space:nowrap;padding-right:25px!important;}
+
+/*PAGINATION*/
+#eblog-wrapper.eblog-altium .pagination{}
+
+
+
+#ezblog-body .tab_button .item-active a span,
+#ezblog-body .tab_button .item-active a:hover span {
+	background: #333;
+	color:#fff;
+}
+#ezblog-body .tab_button .item-active a:hover {
+	background-color:#f5f5f5;
+}
+
+
+/*RESPONSIVE*/
+#eblog-wrapper.w320 #ezblog-body .blog-post .blog-meta,
+#eblog-wrapper.w320 #ezblog-body .blog-read .blog-meta {
+	min-height: 40px;
+	height: auto;
+}

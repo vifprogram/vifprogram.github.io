@@ -1,0 +1,39 @@
+/**
+ * @package		EasyBlog
+ * @copyright	Copyright (C) 2010 Stack Ideas Private Limited. All rights reserved.
+ * @license		GNU/GPL, see LICENSE.php
+ *
+ * EasyBlog is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+/* Listing view */
+#ezblog-body .blog-meta{
+    border-bottom: 1px dotted #CCCCCC;
+    border-top: 1px dotted #CCCCCC;
+    padding: 5px 5px 5px 0;
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+
+#ezblog-posts .blog-comments a{
+	background: url("../images/comment.png") 0 0 no-repeat;
+	display:block;
+}
+
+#ezblog-posts .blog-readmore a{
+	background: url("../images/readon.png") 0 0 no-repeat;
+	display:block;
+	padding:0 0 0 22px;
+}
+
+#ezblog-body .blog-meta > .in{
+	margin-left: 2px;
+}
+
+/* Entry view */
+#ezblog-body .blog-brief .blog-meta {
+	display:block;
+}
